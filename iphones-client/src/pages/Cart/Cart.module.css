@@ -1,0 +1,158 @@
+.cartContainer {
+  margin: 30px 300px;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cartContent {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.cartItems {
+  flex: 3;
+}
+
+.cartTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cartTable th,
+.cartTable td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+.cartTable td {
+  height: 60px;
+}
+
+.productImage {
+  width: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  color: #000;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.qtyControl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qtyControl button {
+  padding: 4px 10px;
+  font-size: 16px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.summary {
+  flex: 1;
+  border: 1px solid #eee;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.summary h2 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.summaryTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.totalPrice {
+  color: red;
+}
+
+.checkoutButton {
+  display: block;
+  background-color: #7709fe;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 12px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.checkoutButton:hover {
+  background-color: #5e07c5;
+}
+
+.continueButton {
+  display: block;
+  background-color: white;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.continueButton:hover {
+  background-color: #f5f5f5;
+}
+
+.removeBtn {
+  background: none;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+
+.checkoutButton.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: no-drop;
+}

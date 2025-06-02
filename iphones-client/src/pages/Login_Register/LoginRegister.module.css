@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  flex-wrap: nowrap;
+}
+
+.options label {
+  display: flex;
+  white-space: nowrap;
+  gap: 6px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.forgot {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.toggle {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.toggle span {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 16px;
+  background-color: #f0f2f5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.backButton:hover {
+  background-color: #e0e0e0;
+}
+
+@keyframes slideDown {
+  0% {
+    top: -50px;
+    opacity: 0;
+  }
+  100% {
+    top: 100px;
+    opacity: 1;
+  }
+}
+
+.toast {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7709fe;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  white-space: nowrap;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  animation: slideDown 0.5s ease-out;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <!-- Link đến Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h3 class="text-center mb-4">Đăng Nhập ADMIN</h3>
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="Nhập email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Mật khẩu</label>
+                                <input type="password" id="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+                            </div>
+                        </form>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link đến Bootstrap 5 JS và Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+
+            try {
+                const res = await fetch('/api/auth/login', { // Địa chỉ API đăng nhập của bạn
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+
+                if (!res.ok) {
+                    const data = await res.json();
+                    throw new Error(data.message || 'Đăng nhập thất bại');
+                }
+
+                const data = await res.json();
+                // Lưu token vào localStorage để sử dụng sau này
+                localStorage.setItem('token', data.token);
+                // sessionStorage.setItem('token', data.token);
+
+
+                alert('Đăng nhập thành công!');
+                // Chuyển hướng hoặc thực hiện hành động khác sau khi đăng nhập thành công
+                window.location.href = '/admin/product';  // Ví dụ chuyển đến trang dashboard
+            } catch (err) {
+                alert(err.message);
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "67f61eff56be44ba459da57b"
+  },
+  "user": "67f61e7d56be44ba459da576",
+  "items": [
+    {
+      "product": "66158034f91f9d3e9876def4",
+      "variantSku": "15PM-GOLD-512",
+      "quantity": 1
+    },
+    {
+      "product": "66158034f91f9d3e9876def5",
+      "variantSku": "15-BLK-128",
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f61eff56be44ba459da579"
+  },
+  "user": "67f61e7d56be44ba459da574",
+  "items": [
+    {
+      "product": "66158034f91f9d3e9876def1",
+      "variantSku": "14PM-BLK-256",
+      "quantity": 2
+    },
+    {
+      "product": "66158034f91f9d3e9876def2",
+      "variantSku": "14-BLUE-128",
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f61eff56be44ba459da57a"
+  },
+  "user": "67f61e7d56be44ba459da575",
+  "items": [
+    {
+      "product": "66158034f91f9d3e9876def3",
+      "variantSku": "13MINI-WHT-128",
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67fb30f822ef2a3f5357364a"
+  },
+  "user": {
+    "$oid": "67f6920570254565fdff3d2b"
+  },
+  "items": [
+    {
+      "product": {
+        "$oid": "67f5ffb0b4da2bff06300bb2"
+      },
+      "variantSku": "15PM-BLK-256",
+      "quantity": 2,
+      "_id": {
+        "$oid": "67fba59169407cda5bd8a885"
+      }
+    }
+  ],
+  "updatedAt": {
+    "$date": "2025-04-13T11:52:49.431Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,56 @@
+.container {
+  margin: 0 300px;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttonEdit,
+.buttonSave {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonEdit:hover {
+  background-color: #0056b3;
+}
+
+.buttonSave:hover {
+  background-color: #28a745;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: red;
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chi tiết sản phẩm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .main-image-container img {
+      height: 400px;
+      object-fit: contain;
+    }
+
+    .gallery-thumbnail {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .gallery-thumbnail:hover {
+      transform: scale(1.1);
+      border: 2px solid #007bff;
+    }
+  </style>
+</head>
+
+<!-- <body class="bg-light p-4"> -->
+
+<body class="p-4">
+
+  <div class="container-fluid">
+    <a href="/admin/product" class="back-link ">← Quay lại</a>
+
+    <h2 class="mb-4" id="productName">Tên sản phẩm</h2>
+
+    <div id="productDetails" class="mb-5">
+      <!-- Thông tin sản phẩm sẽ được render tại đây -->
+    </div>
+
+    <div id="productVariants">
+      <h4>Biến thể sản phẩm</h4>
+      <!-- Biến thể sẽ được render tại đây -->
+    </div>
+
+    <div id="productReviews" class="mt-5">
+      <h4>Đánh giá sản phẩm</h4>
+      <!-- Đánh giá sẽ được render tại đây -->
+    </div>
+
+    <!-- Form thêm đánh giá
+    <div class="mt-4">
+      <h5>Thêm đánh giá</h5>
+      <form id="reviewForm">
+        <div class="mb-3">
+          <label for="reviewRating" class="form-label">Đánh giá (1-5 sao)</label>
+          <input type="number" id="reviewRating" class="form-control" min="1" max="5" required>
+        </div>
+        <div class="mb-3">
+          <label for="reviewComment" class="form-label">Bình luận</label>
+          <textarea id="reviewComment" class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Thêm đánh giá</button>
+      </form>
+    </div> -->
+  </div>
+
+  <script>
+    // const productId = new URLSearchParams(window.location.search).get("id");
+    const path = window.location.pathname; // "/product/6807a2b54ef9ebe5355d8463"
+    const productId = path.split('/').pop(); // Lấy phần cuối cùng của đường dẫn
+    // console.log(productId); // "6807a2b54ef9ebe5355d8463"
+
+    // fetchProductDetails();
+    async function fetchProductDetails() {
+      try {
+        const res = await fetch(`http://localhost:5000/api/products/${productId}`);
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.message || "Lỗi khi lấy dữ liệu sản phẩm.");
+        }
+
+        // const product = data.product;
+        const product = data; // Sử dụng dữ liệu trả về từ API
+        document.getElementById("productName").textContent = product.name;
+
+        // Lấy thông tin từ biến thể đầu tiên
+        const firstVariant = product.variants?.[0] || {}; // Kiểm tra nếu có biến thể
+
+        let firstImage = product.image || 'http://localhost:5000/uploads/default-image.png';
+
+
+        // Render thông tin sản phẩm
+        const detailsHTML = `
+        <div class="row mb-3">
+          <div class="col-md-5">
+            <!-- Hình ảnh chính -->
+            <div class="main-image-container text-center mb-3">
+              <img id="mainImage" src="${firstImage}" class="img-fluid rounded shadow-sm" alt="Ảnh sản phẩm">
+            </div>
+
+              <!-- Gallery hình ảnh phụ -->
+              <div class="d-flex flex-wrap justify-content-center gap-2">
+                ${product.images && product.images.length > 0
+            ? product.images
+              .map(
+                (img) => `
+                          <img 
+                            src="${img}" 
+                            class="img-thumbnail gallery-thumbnail" 
+                            style="width: 80px; height: 80px; object-fit: cover; cursor: pointer;" 
+                            alt="Ảnh sản phẩm" 
+                             onmouseover="updateMainImage('${img}')"
+                          >
+                        `
+              )
+              .join("")
+            : '<p class="text-muted">Không có ảnh khác.</p>'
+          }
+              </div>
+          </div>
+          <div class="col-md-7">
+            <p><strong>Mã:</strong> ${product.id || "Không rõ"}</p>
+            <p><strong>Thương hiệu:</strong> ${product.brand || "Không rõ"}</p>
+            <p><strong>Danh mục:</strong> ${product.category?.name || "Không rõ"}</p>
+            <p><strong>Mô tả:</strong> ${product.description || "..."}</p>
+            <p><strong>Chi tiết:</strong> ${product.richDescription || "..."}</p>
+            <p><strong>Nổi bật:</strong> ${product.isFeatured ? "Có" : "Không"}</p>
+
+
+            <h5 class="mt-4">Thông số kỹ thuật:</h5>
+                <ul>
+                  <li>Màn hình: ${product.specs?.screen || "Không có"}</li>
+                  <li>Chip: ${product.specs?.chip || "Không có"}</li>
+                  <li>Camera: ${product.specs?.camera || "Không có"}</li>
+                  <li>Pin: ${product.specs?.battery || "Không có"}</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-end mb-3">
+              <a href="/admin/edit-product/${product.id}" class="btn btn-warning btn-sm text-end">Sửa thông tin</a>
+            </div>
+
+          `;
+        document.getElementById("productDetails").innerHTML = detailsHTML;
+
+
+
+
+        // Render các biến thể còn lại
+        let variantHTML = ``;
+        (product.variants || []).forEach((variant, index) => {
+          // Xử lý trường images
+          let imageGallery = "";
+          if (Array.isArray(variant.images)) {
+            if (typeof variant.images[0] === "string" && variant.images[0].includes(",")) {
+              // Trường hợp mới: Tách chuỗi thành mảng
+              const images = variant.images[0].split(", ").map(img => img.trim());
+              imageGallery = images.map(img => `<img src="http://localhost:5000${img}" class="img-thumbnail me-2 mb-2" style="max-height:100px;">`).join('');
+            } else {
+              // Trường hợp cũ: Mảng các URL
+              imageGallery = variant.images.map(img => `<img src="${img}" class="img-thumbnail me-2 mb-2" style="max-height:100px;">`).join('');
+            }
+          }
+
+          // Render thông tin biến thể
+          variantHTML += `
+          <div class="border rounded p-3 mb-3">
+            <h6>Biến thể #${index + 1}</h6>
+            <p><strong>Tên biến thể:</strong> ${variant.name}</p>
+            <p><strong>Mã biến thể:</strong> ${variant.id}</p>
+            <p><strong>SKU:</strong> ${variant.sku}</p>
+            <p><strong>SLUG:</strong> ${variant.slug}</p>
+            <p><strong>Dung lượng:</strong> ${variant.storage}</p>
+            <p><strong>Màu sắc:</strong> ${variant.color}</p>
+            <p><strong>Giá:</strong> ${variant.price.toLocaleString()} VND</p>
+            <p><strong>Giá bán:</strong> ${variant.finalPrice.toLocaleString()} VND</p>
+            <p><strong>Giảm giá:</strong> ${variant.discount || 0}%</p>
+            <p><strong>Tồn kho:</strong> ${variant.stock}</p>
+            <div class="d-flex flex-wrap">${imageGallery}</div>
+          </div>
+        `;
+        });
+        document.getElementById("productVariants").innerHTML += variantHTML;
+
+        // Render đánh giá
+        let reviewsHTML = ``;
+        if (product.reviews && product.reviews.length > 0) {
+          product.reviews.forEach((review) => {
+            reviewsHTML += `
+          <div class="border rounded p-3 mb-3">
+            <p><strong>${review.user?.name || "Ẩn danh"}</strong> - ${new Date(review.createdAt).toLocaleDateString()}</p>
+            <p>⭐ ${review.rating} / 5</p>
+            <p>${review.comment}</p>
+          </div>
+        `;
+          });
+        } else {
+          reviewsHTML = `<p class="text-muted">Chưa có đánh giá nào.</p>`;
+        }
+        document.getElementById("productReviews").innerHTML += reviewsHTML;
+
+      } catch (err) {
+        console.error("Lỗi khi tải sản phẩm:", err);
+        document.getElementById("productDetails").innerHTML = `<div class="alert alert-danger">Không thể tải sản phẩm.</div>`;
+      }
+    }
+
+    // Hàm cập nhật hình ảnh chính
+    function updateMainImage(url) {
+      document.getElementById("mainImage").src = url;
+    }
+
+
+    // document.getElementById("reviewForm").addEventListener("submit", async (e) => {
+    //   e.preventDefault();
+
+    //   const rating = Number(document.getElementById("reviewRating").value);
+    //   const comment = document.getElementById("reviewComment").value.trim();
+
+    //   try {
+    //     const res = await fetch(`http://localhost:5000/api/reviews/product/${productId}`, {
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //       },
+    //       body: JSON.stringify({ rating, comment }),
+    //     });
+
+    //     if (!res.ok) {
+    //       const errorData = await res.json();
+    //       throw new Error(errorData.message || 'Không thể thêm đánh giá');
+    //     }
+
+    //     const newReview = await res.json();
+    //     console.log(newReview); // Đánh giá mới
+    //     alert("Đánh giá đã được thêm thành công!");
+    //     fetchProductDetails(); // Làm mới thông tin sản phẩm sau khi thêm đánh giá
+    //     document.getElementById("reviewForm").reset(); // Reset form
+    //   } catch (err) {
+    //     console.error("Lỗi khi thêm đánh giá:", err);
+    //     alert("Không thể thêm đánh giá.");
+    //   }
+    // });
+
+
+
+
+    // function renderReviews() {
+    //   let reviewsHTML = ``;
+    //   if (product.reviews && product.reviews.length > 0) {
+    //     product.reviews.forEach((review) => {
+    //       reviewsHTML += `
+    //     <div class="border rounded p-3 mb-3">
+    //       <p><strong>${review.user?.name || "Ẩn danh"}</strong> - ${new Date(review.createdAt).toLocaleDateString()}</p>
+    //       <p>⭐ ${review.rating} / 5</p>
+    //       <p>${review.comment}</p>
+    //       <button class="btn btn-sm btn-warning me-2" onclick="editReview('${review._id}')">Sửa</button>
+    //       <button class="btn btn-sm btn-danger" onclick="deleteReview('${review._id}')">Xóa</button>
+    //     </div>
+    //   `;
+    //     });
+    //   } else {
+    //     reviewsHTML = `<p class="text-muted">Chưa có đánh giá nào.</p>`;
+    //   }
+    //   document.getElementById("productReviews").innerHTML = reviewsHTML;
+    // }
+
+    // fetchProductDetails();
+
+    function renderReviews(reviews) {
+      const container = document.getElementById("productReviews");
+
+      if (reviews.length === 0) {
+        container.innerHTML += `<p class="text-muted">Chưa có đánh giá nào.</p>`;
+        return;
+      }
+
+      const html = reviews.map(review => `
+        <div class="border rounded p-3 mb-3">
+          <p><strong>${review.user?.name || "Ẩn danh"}</strong> - ${new Date(review.createdAt).toLocaleDateString()}</p>
+          <p>⭐ ${review.rating} / 5</p>
+          <p>${review.comment}</p>
+        </div>
+      `).join('');
+
+      container.innerHTML += html;
+    }
+
+   
+
+    // document.getElementById("reviewForm").addEventListener("submit", async (e) => {
+    //   e.preventDefault();
+    //   const rating = Number(document.getElementById("reviewRating").value);
+    //   const comment = document.getElementById("reviewComment").value.trim();
+
+    //   try {
+    //     const token = localStorage.getItem("token"); // nếu có đăng nhập, lấy token ở đây
+
+    //     const res = await fetch(`http://localhost:5000/api/reviews/product/${productId}`, {
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json",
+    //         ...(token ? { "Authorization": `Bearer ${token}` } : {}), // nếu có token thì thêm header
+    //       },
+    //       body: JSON.stringify({ rating, comment }),
+    //     });
+
+    //     if (!res.ok) {
+    //       const errData = await res.json();
+    //       throw new Error(errData.message || 'Không thể thêm đánh giá');
+    //     }
+
+    //     alert("Đánh giá đã thêm thành công!");
+    //     document.getElementById("reviewForm").reset();
+
+    //     // Update giao diện mà không cần reload cả sản phẩm
+    //     const newReview = await res.json();
+    //     document.getElementById("productReviews").innerHTML += `
+    //       <div class="border rounded p-3 mb-3">
+    //         <p><strong>${newReview.user?.name || "Ẩn danh"}</strong> - ${new Date(newReview.createdAt).toLocaleDateString()}</p>
+    //         <p>⭐ ${newReview.rating} / 5</p>
+    //         <p>${newReview.comment}</p>
+    //       </div>
+    //     `;
+
+    //   } catch (err) {
+    //     console.error(err);
+    //     alert("Không thể thêm đánh giá.");
+    //   }
+    // });
+
+    // Load sản phẩm ngay khi vào trang
+    fetchProductDetails();
+  </script>
+
+</body>
+
+</html>

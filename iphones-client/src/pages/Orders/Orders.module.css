@@ -1,0 +1,71 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.itemList {
+  padding-left: 16px;
+}
+
+
+.action-buttons {
+  display: flex;
+  flex-direction: column; /* Các nút xếp chồng lên nhau */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  gap: 12px; /* Khoảng cách giữa các nút */
+}
+
+.action-buttons .ant-btn {
+  font-size: 14px; /* Giảm kích thước font chữ cho dễ đọc */
+  padding: 8px 16px; /* Cung cấp padding vừa đủ */
+  border-radius: 8px; /* Bo góc cho nút */
+  transition: all 0.3s ease; /* Hiệu ứng mượt khi hover */
+}
+
+/* Màu sắc và hiệu ứng hover */
+.action-buttons .ant-btn.danger {
+  background-color: #ff4d4f; /* Màu đỏ cho nút "Hủy đơn" */
+  border: 1px solid #ff4d4f;
+  color: white;
+}
+
+.action-buttons .ant-btn.danger:hover {
+  background-color: #ff7875; /* Màu nhạt khi hover */
+  border-color: #ff7875;
+  transform: translateY(-2px); /* Di chuyển nhẹ lên trên khi hover */
+}
+
+/* Nút chính - Xem chi tiết */
+.action-buttons .ant-btn.primary {
+  background-color: #1890ff; /* Màu xanh lam cho nút "Xem chi tiết" */
+  border: 1px solid #1890ff;
+  color: white;
+}
+
+.action-buttons .ant-btn.primary:hover {
+  background-color: #40a9ff; /* Màu nhạt khi hover */
+  border-color: #40a9ff;
+  transform: translateY(-2px); /* Di chuyển nhẹ lên trên khi hover */
+}
+
+/* Thêm shadow cho nút */
+.action-buttons .ant-btn {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng nhẹ cho nút */
+}
+
+.action-buttons .ant-btn:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Tăng bóng khi hover */
+}

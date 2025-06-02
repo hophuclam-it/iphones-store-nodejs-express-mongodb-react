@@ -1,0 +1,302 @@
+[{
+  "_id": {
+    "$oid": "680752cdf7cf0c3086f83723"
+  },
+  "name": "Administrator",
+  "email": "admin",
+  "passwordHash": "$2b$10$x82HYF09sNqUmXWrpaVyLOApKNPjni5/7FqVpBMhwV6ughMt.JOae",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2025-04-22T08:26:53.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "name": "Võ Hồng Kiệt",
+  "email": "vohongkiet@gmail.com",
+  "passwordHash": "$2b$10$dj8SuB4za6M3Hr5RxXMvJu4ElGAsPnMSNfXcCycd2gD9FH7ak3m36",
+  "phone": "0866791305",
+  "address": {
+    "street": "1003 Nguyễn Kiệm",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-22T08:27:58.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "name": "Lư Trung Hiếu",
+  "email": "lutrunghieu@gmail.com",
+  "passwordHash": "$2b$10$3.DFN8lcV38omcI9xwOt3.kj7am.mfcbb36E8OuYhIyKDm7yRw38m",
+  "phone": "0866791305",
+  "address": {
+    "street": "84/18 Huỳnh Khương An",
+    "city": "Hồ Chí Minh City",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-22T08:28:23.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680c712bcef9f3871920f7e2"
+  },
+  "name": "Tấn",
+  "email": "tan@gmail.com",
+  "passwordHash": "$2b$10$gQba3nD38c6GHKdAdchOduZ2hGgIrSJCjnYJ/TOavP59rAYJQgeHC",
+  "phone": "99999999",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-26T05:37:47.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "name": "hieu",
+  "email": "hieu456@gmail.com",
+  "passwordHash": "$2b$10$pYIG927c6vym17yeLETByun0HoENvvAtUgfBy78f3oQvE2LRREWaG",
+  "phone": "0866791305",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T02:56:39.145Z"
+  },
+  "__v": 0,
+  "address": {
+    "street": "84/18 Huỳnh Khương An",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  }
+},
+{
+  "_id": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "name": "Administrator",
+  "email": "admin@iphone.com",
+  "passwordHash": "$2b$10$mTrxdGYMkb3dHAhuI0GSrugWRLU7ahTnY9nArZN2HI1ChvM5S4XFu",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2025-04-27T17:51:14.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "name": "Hồ Phúc Lâm",
+  "email": "hophuclam@gmail.com",
+  "passwordHash": "$2b$10$ptiCQLN2J7CqLf1H4DxxxucYMPtmSJy4LmuF5DzmFAl1F3A9d17by",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T18:33:42.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "name": "Lê Tiến Cường",
+  "email": "letiencuong@gmail.com",
+  "passwordHash": "$2b$10$nNYx68svOuZ46bUPlVElWeUko4mk4wi363jWPeB4uTCZTrhe/FVV2",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T18:37:51.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "name": "Hoàng Vy",
+  "email": "hoangvy@gmail.com",
+  "passwordHash": "$2b$10$uerPXmPCoABtS0Ej7eDMnOZF4yWbmUghFVFMdwi7ZPRKvyohRm0JO",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T18:44:25.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "name": "Nguyễn Tuấn Anh",
+  "email": "nguyentuananh@gmail.com",
+  "passwordHash": "$2b$10$3jSQ8fh0rEXvZJfkTD.Hgecbn53Nh0CgBCWMTvgETyKzaHVN.2DcO",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T18:45:53.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "name": "Ngọc Hân",
+  "email": "ngochan@gmail.com",
+  "passwordHash": "$2b$10$o8esrvWlce6/R8QajJlObebOeq16tOwQD0RvmJ08C/qQFeMZgEe1S",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T18:46:28.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "name": "Thu Thúy",
+  "email": "thuthuy@gmail.com",
+  "passwordHash": "$2b$10$MEsSYP44LDJqiivxttPIu.g8XwEQj2Bi5C7T/77Tlw9l6fI1i9d/K",
+  "phone": "0912345678",
+  "address": {
+    "street": "12 Nguyễn văn bảo, P1, Gò vấp",
+    "city": "Thành phố Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-27T18:48:05.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "name": "A",
+  "email": "a@gmail.com",
+  "passwordHash": "$2b$10$ITyySRIfIOFpBukobw5TYOdNBjAf4R22B8xIP0/uqFrPAl4yh3aki",
+  "phone": "0987654321",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-28T09:30:43.059Z"
+  },
+  "__v": 0,
+  "address": {
+    "street": "1003 Nguyễn Kiệm",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  }
+},
+{
+  "_id": {
+    "$oid": "681021c524edf41686d706ca"
+  },
+  "name": "User",
+  "email": "user@gmail.com",
+  "passwordHash": "$2b$10$XLCNwWiqYZAAaCUCRyW5DOApYXwvDF3EmbVuQNa4n1BD/W7pXHbga",
+  "phone": "0866791305",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-29T00:48:05.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104765e37a09876d840a93"
+  },
+  "name": "A",
+  "email": "va@gmail.com",
+  "passwordHash": "$2b$10$.J2yMZ3jVamMo1lppRblqO8zGtqIRhte7vJkcvIWFvFyXrnricIyC",
+  "phone": "0866791305",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-29T03:28:37.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "name": "Nguyễn Văn B",
+  "email": "b@gmail.com",
+  "passwordHash": "$2b$10$Q5giqVRzHSDi5wQoO8lC/uz5Yjn3dylAfJyoKdoOvdCLtw/Pz3LvO",
+  "phone": "0866791305",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2025-04-29T03:35:39.991Z"
+  },
+  "__v": 0,
+  "address": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  }
+}]

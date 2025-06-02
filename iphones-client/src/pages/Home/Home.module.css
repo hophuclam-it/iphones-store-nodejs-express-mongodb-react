@@ -1,0 +1,447 @@
+.container {
+  display: flex;
+  padding: 20px 300px;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  color: #7709fe;
+  margin-bottom: 16px;
+}
+
+.productList {
+  list-style: none;
+  padding: 0;
+}
+
+.productList li {
+  padding: 10px 0;
+}
+
+.productList li a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+.productList li a:hover {
+  color: #7709fe;
+  font-weight: bold;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px 0 0 20px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  gap: 10px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  background-color: #7709fe;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #5e06c5;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactIcon {
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px solid #7709fe;
+  font-size: 24px;
+  color: #7709fe;
+  cursor: pointer;
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.phone {
+  font-weight: bold;
+  font-size: 16px;
+  color: #7709fe;
+}
+
+.support {
+  font-size: 14px;
+  color: #777;
+}
+
+.adSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.textSection h1 {
+  font-size: 36px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.textSection p {
+  font-size: 20px;
+  color: #555;
+  margin: 0 0 20px;
+}
+
+.buyButton {
+  background-color: #7709fe;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.buyButton:hover {
+  background-color: #5e06c5;
+}
+
+.imageSection {
+  width: 600px;
+  height: auto;
+}
+
+.adSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.adSwiper__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.adSwiper .swiper-pagination {
+  bottom: 10px !important;
+}
+
+.adSwiper .swiper-button-next,
+.adSwiper .swiper-button-prev {
+  color: #fff;
+  background-color: rgba(119, 9, 254, 0.7);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.adSwiper .swiper-button-next:after,
+.adSwiper .swiper-button-prev:after {
+  font-size: 18px;
+}
+
+.drawerFooterButton {
+  color: #ffffff;
+  border-color: #7709fe;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.drawerFooterButton:hover {
+  background-color: #7709fe;
+  color: #ffffff;
+}
+
+.drawerFooterButtonPrimary {
+  background-color: #7709fe;
+  border-color: #7709fe;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.drawerFooterButtonPrimary:hover {
+  background-color: #5e06c5;
+  border-color: #5e06c5;
+  color: #ffffff;
+}
+
+.titleProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 4px;
+}
+
+.titleProductsIcon {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 300px;
+}
+
+.productCard {
+  width: calc(20% - 50px);
+  text-decoration: none;
+  height: 360px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(119, 9, 254, 0.15);
+  border-color: #7709fe;
+}
+
+.productImage {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.productTitle {
+  font-size: 18px;
+  height: 48px;
+  margin: 12px 0 6px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.productPrice {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7709fe;
+  margin-bottom: 20px;
+}
+
+.buyButton {
+  padding: 10px 16px;
+  margin-top: auto;
+  text-decoration: none;
+  background-color: #7709fe;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+  background-color: #5e07c5;
+}
+
+.viewAllWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+.viewAllButton {
+  padding: 12px 24px;
+  background-color: #7709fe;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.viewAllButton:hover {
+  background-color: #5e07c5;
+  transform: scale(1.05);
+}
+
+.promoSection {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin: 20px 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.promoTitle {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+}
+
+.promoCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.promoCard:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.promoImage {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.ant-card-meta {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.ant-card-meta-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ant-card-meta-description {
+  font-size: 14px;
+  color: #666;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.commitSection {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin: 20px 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.commitTitle {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.commitCard {
+  background-color: #fff;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.commitCard:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.commitCardTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.commitCardDescription {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.aboutSection {
+  margin: 20px 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.aboutImage {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.aboutTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.aboutDescription {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}

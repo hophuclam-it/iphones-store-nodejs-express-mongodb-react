@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Danh sách sản phẩm iPhone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<!-- <body class="bg-light"> -->
+
+<body class="p-4">
+
+  <div class="container-fluid">
+    <div class="row mt-2 ">
+      <div class="col-md">
+        <h1 class="text-start mb-4">Quản lý sản phẩm</h1>
+
+      </div>
+      <div class="col-md">
+        <div class="d-flex justify-content-end gap-2 mb-4">
+          <a href="/admin/add-product" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm
+          </a>
+          <button onclick="exportData('excel')" class="btn btn-success">
+            <i class="bi bi-file-earmark-excel"></i> Xuất Excel
+          </button>
+          <button onclick="exportData('json')" class="btn btn-info">
+            <i class="bi bi-file-earmark-code"></i> Xuất JSON
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bộ lọc -->
+    <form id="filterForm" class="row g-3 mb-4">
+      <div class="col-md-4">
+        <input type="text" name="search" class="form-control" placeholder="Tìm kiếm sản phẩm">
+      </div>
+      <div class="col-md-2">
+        <input type="number" name="minPrice" class="form-control" placeholder="Giá từ">
+      </div>
+      <div class="col-md-2">
+        <input type="number" name="maxPrice" class="form-control" placeholder="Giá đến">
+      </div>
+
+      <div class="col-md-2">
+        <select name="sort" class="form-select">
+          <option value="">Sắp xếp</option>
+          <option value="asc">Giá tăng dần</option>
+          <option value="desc">Giá giảm dần</option>
+          <option value="newest">Mới nhất</option>
+          <option value="oldest">Cũ nhất</option>
+          <option value="a-z">A đến Z</option>
+          <option value="z-a">Z đến A</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <button type="submit" class="btn btn-secondary w-100">Lọc</button>
+      </div>
+    </form>
+
+    <!-- Danh sách sản phẩm -->
+    <table class="table table-bordered table-striped table-hover table-sm table-light">
+      <thead>
+        <tr>
+          <th class="text-center">Ảnh</th>
+          <th class="text-center">Tên sản phẩm</th>
+          <th class="text-center">Giá tham khảo</th>
+          <th class="text-center">Tồn kho</th>
+          <th class="text-center">Dung lượng</th>
+          <th class="text-center">Danh mục</th>
+          <th class="text-center">Thao tác</th>
+        </tr>
+      </thead>
+      <tbody id="productList"></tbody>
+    </table>
+
+    <!-- Phân trang -->
+    <nav>
+      <ul id="pagination" class="pagination justify-content-center mt-4"></ul>
+    </nav>
+  </div>
+
+  <script>
+    const limitPerPage = 10;
+    let allProducts = [];
+    let currentPage = 1;
+
+    // Fetch toàn bộ sản phẩm
+    async function fetchAllProducts() {
+      try {
+        const response = await fetch(`/api/products`);
+        const data = await response.json();
+
+        if (!Array.isArray(data)) throw new Error('Kết quả không hợp lệ.');
+
+        allProducts = data;
+        applyFiltersAndRender(); // render trang đầu
+      } catch (error) {
+        console.error('Lỗi tải sản phẩm:', error);
+        alert('Không thể tải danh sách sản phẩm.');
+      }
+    }
+
+    // Lọc, sắp xếp và hiển thị sản phẩm theo trang
+    function applyFiltersAndRender() {
+      const form = new FormData(document.getElementById('filterForm'));
+      let filtered = [...allProducts];
+
+      const search = form.get('search')?.trim().toLowerCase();
+      const minPrice = parseFloat(form.get('minPrice'));
+      const maxPrice = parseFloat(form.get('maxPrice'));
+      const sort = form.get('sort');
+
+      filtered = filtered.filter(p => {
+        const nameMatch = !search || p.name?.toLowerCase().includes(search);
+        const variant = p.variants?.[0];
+        const price = variant?.price || 0;
+        const priceMatch = (!minPrice || price >= minPrice) && (!maxPrice || price <= maxPrice);
+        return nameMatch && priceMatch;
+      });
+
+
+
+      // Sắp xếp sản phẩm
+      if (sort === 'asc') {
+        filtered.sort((a, b) => (a.variants?.[0]?.price || 0) - (b.variants?.[0]?.price || 0));
+      } else if (sort === 'desc') {
+        filtered.sort((a, b) => (b.variants?.[0]?.price || 0) - (a.variants?.[0]?.price || 0));
+      } else if (sort === 'newest') {
+        filtered.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+      } else if (sort === 'oldest') {
+        filtered.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+      } else if (sort === 'a-z') {
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+      } else if (sort === 'z-a') {
+        filtered.sort((a, b) => b.name.localeCompare(a.name));
+      }
+
+      renderProducts(filtered);
+      updatePagination(filtered.length);
+    }
+
+    // Hiển thị sản phẩm cho trang hiện tại
+    function renderProducts(products) {
+      const container = document.getElementById('productList');
+      container.innerHTML = '';
+
+      const start = (currentPage - 1) * limitPerPage;
+      const end = start + limitPerPage;
+      const pageProducts = products.slice(start, end);
+
+      if (!pageProducts.length) {
+        container.innerHTML = '<tr><td colspan="7" class="text-center  align-middle">Không có sản phẩm nào.</td></tr>';
+        return;
+      }
+
+      pageProducts.forEach(product => {
+        const variant = product.variants?.[0];
+        let firstImage = product.image || '/uploads/default-image.png';
+
+
+        container.innerHTML += `
+          <tr class="align-middle">
+            <td class="text-center">
+              <a href="/admin/product/${product._id}">
+              <img src="${firstImage}" style="max-width: 50px;" class="img-fluid" /></td>
+            </a>
+            <td>${product.name}</td>
+            <td class="text-center">${variant?.price?.toLocaleString('vi-VN') || 'Chưa có giá'} VND</td>
+            <td class="text-center">${product.variants?.reduce((total, variant) => total + (variant.stock || 0), 0)}</td>
+            <td class="text-center">${product.variants?.map(variant => variant.storage).filter(Boolean).join(', ') || 'Chưa có'}</td>
+            <td class="text-center">${product.category?.name || 'Chưa có'}</td>
+            <td class="text-center">
+              <a href="/admin/product/${product._id}" class="btn btn-info btn-sm"><i class="bi bi-eye"></i></a>
+              <a href="/admin/edit-product/${product._id}" class="btn btn-warning btn-sm"><i class="bi bi-pencil"></i></a>
+              <button onclick="deleteProduct('${product._id}')" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        `;
+      });
+    }
+
+    // Cập nhật nút phân trang
+    function updatePagination(totalItems) {
+      const pagination = document.getElementById('pagination');
+      pagination.innerHTML = '';
+      const totalPages = Math.ceil(totalItems / limitPerPage);
+
+      for (let i = 1; i <= totalPages; i++) {
+        pagination.innerHTML += `
+          <li class="page-item ${i === currentPage ? 'active' : ''}">
+            <button class="page-link" onclick="goToPage(${i})">${i}</button>
+          </li>
+        `;
+      }
+    }
+
+    function goToPage(page) {
+      currentPage = page;
+      applyFiltersAndRender();
+    }
+
+    async function deleteProduct(id) {
+      if (!confirm('Bạn có chắc chắn muốn xóa sản phẩm này?')) return;
+      try {
+        const res = await fetch(`/api/products/${id}`, { method: 'DELETE' });
+        if (!res.ok) throw new Error('Lỗi xóa sản phẩm');
+        alert('Đã xóa thành công');
+        fetchAllProducts(); // reload lại
+      } catch (err) {
+        alert('Xóa thất bại');
+        console.error(err);
+      }
+    }
+
+    document.getElementById('filterForm').addEventListener('submit', e => {
+      e.preventDefault();
+      currentPage = 1;
+      applyFiltersAndRender();
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchAllProducts();
+    });
+
+
+
+    // Hàm xuất dữ liệu theo định dạng
+    function exportData(format) {
+      if (!allProducts.length) {
+        alert('Không có sản phẩm nào để xuất.');
+        return;
+      }
+      // Sắp xếp các sản phẩm theo tên từ A-Z
+      allProducts.sort((a, b) => a.name.localeCompare(b.name));
+      switch (format) {
+        case 'excel':
+          exportProductsToExcel(allProducts);
+          break;
+        case 'json':
+          exportToJSON(allProducts);
+          break;
+        default:
+          alert('Định dạng không hỗ trợ.');
+      }
+    }
+
+
+
+    async function exportProductsToExcel(products) {
+      const workbook = new ExcelJS.Workbook();
+      const now = new Date().toLocaleString('vi-VN');
+
+      // Tạo Sheet Chi tiết biến thể
+      const variantSheet = workbook.addWorksheet('Chi tiết biến thể', {
+        views: [{ state: 'frozen', ySplit: 4 }] // Cố định 4 dòng đầu
+      });
+
+      // Header
+      variantSheet.addRow(['DANH SÁCH CHI TIẾT BIẾN THỂ SẢN PHẨM']);
+      variantSheet.addRow(['Ngày xuất:', now]);
+      variantSheet.addRow([]);
+      variantSheet.addRow([
+        'STT', 'Tên sản phẩm', 'Thương hiệu', 'Danh mục', 'Mô tả ngắn',
+        'Tên biến thể', 'Màu sắc', 'Dung lượng',
+        'Giá gốc (VNĐ)', 'Giảm giá (%)', 'Giá sau giảm (VNĐ)', 'Tồn kho'
+      ]);
+
+      // Style dòng tiêu đề
+      const headerRow = variantSheet.getRow(4);
+      headerRow.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+      headerRow.fill = {
+        type: 'pattern',
+        pattern: 'solid',
+        fgColor: { argb: '4F81BD' } // Màu xanh ERP
+      };
+      headerRow.alignment = { horizontal: 'center', vertical: 'middle', wrapText: true };
+
+      // Set độ rộng cột
+      variantSheet.columns = [
+        { width: 5 }, { width: 25 }, { width: 15 }, { width: 20 },
+        { width: 30 }, { width: 20 }, { width: 15 }, { width: 15 },
+        { width: 15 }, { width: 10 }, { width: 20 }, { width: 10 }
+      ];
+
+      // Đổ data
+      let variantIndex = 1;
+      products.forEach(product => {
+        (product.variants || []).forEach(variant => {
+          variantSheet.addRow([
+            variantIndex,
+            product.name,
+            product.brand || '',
+            product.category?.name || '',
+            product.description || '',
+            variant.name || '',
+            variant.color || '',
+            variant.storage || '',
+            variant?.price?.toLocaleString('vi-VN') || '',
+            variant.discount ?? '',
+            variant?.finalPrice?.toLocaleString('vi-VN') || '',
+            variant.stock ?? ''
+          ]);
+          variantIndex++;
+        });
+      });
+
+      // Tạo Sheet Dành cho nhân viên
+      const staffSheet = workbook.addWorksheet('Dành cho nhân viên', {
+        views: [{ state: 'frozen', ySplit: 4 }]
+      });
+
+      staffSheet.addRow(['DANH SÁCH SẢN PHẨM DÀNH CHO NHÂN VIÊN']);
+      staffSheet.addRow(['Ngày xuất:', now]);
+      staffSheet.addRow([]);
+      staffSheet.addRow(['STT', 'Tên sản phẩm', 'Giá tham khảo', 'Danh mục', 'Thương hiệu', 'Mô tả ngắn']);
+
+      const headerStaff = staffSheet.getRow(4);
+      headerStaff.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+      headerStaff.fill = {
+        type: 'pattern',
+        pattern: 'solid',
+        fgColor: { argb: '4F81BD' }
+      };
+      headerStaff.alignment = { horizontal: 'center', vertical: 'middle', wrapText: true };
+
+      staffSheet.columns = [
+        { width: 5 }, { width: 25 }, { width: 20 }, { width: 20 }, { width: 20 }, { width: 30 }
+      ];
+
+      let productIndex = 1;
+      products.forEach(product => {
+        const variant = product.variants?.[0];
+        staffSheet.addRow([
+          productIndex,
+          product.name,
+          variant?.price?.toLocaleString('vi-VN') || '',
+          product.category?.name || '',
+          product.brand || '',
+          product.description || ''
+        ]);
+        productIndex++;
+      });
+
+      // Tải file về
+      const buffer = await workbook.xlsx.writeBuffer();
+      const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'san_pham_quan_ly.xlsx';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+
+    function exportToJSON(products) {
+      const jsonContent = JSON.stringify(products, null, 2);
+      const blob = new Blob([jsonContent], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'danh_sach_san_pham.json';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/exceljs@4.3.0/dist/exceljs.min.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    <%= product.name %> | iPhone Store
+  </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .col-left {
+      flex: 1;
+    }
+
+    .col-right {
+      flex: 2;
+    }
+
+    img.main-image {
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .gallery img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    h2 {
+      margin-bottom: 5px;
+    }
+
+    .price {
+      font-size: 20px;
+      color: green;
+      margin: 10px 0;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+
+    select,
+    button {
+      padding: 6px 10px;
+      margin-top: 4px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← Quay lại</a>
+
+
+    <div class="row">
+      <!-- Cột trái: ảnh
+      <div class="col-left">
+        <img src="<%= product.image %>" class="main-image" id="mainImage" alt="<%= product.name %>">
+        <% if (product.images && product.images.length > 0) { %>
+          <div class="gallery">
+            <% product.images.forEach(img => { %>
+              <img src="<%= img %>" onclick="changeImage('<%= img %>')" alt="Ảnh phụ">
+            <% }) %>
+          </div>
+        <% } %>
+      </div> -->
+
+      <!-- Cột trái: ảnh -->
+      <div class="col-left">
+        <!-- Hình ảnh chính (A) -->
+        <img src="<%= product.image %>" class="main-image" id="mainImage" alt="<%= product.name %>">
+
+        <!-- Thêm ảnh chính vào gallery -->
+        <% let allImages=[product.image, ...product.images]; %>
+
+          <% if (allImages && allImages.length> 0) { %>
+            <div class="gallery">
+              <% allImages.forEach(img=> { %>
+                <img src="<%= img %>" onclick="changeImage('<%= img %>')" alt="Ảnh phụ">
+                <% }) %>
+            </div>
+            <% } %>
+      </div>
+
+
+      <!-- Cột phải: thông tin sản phẩm -->
+      <div class="col-right">
+        <h2>
+          <%= product.name %>
+        </h2>
+        <p>
+          <%= product.description || 'Không có mô tả.' %>
+        </p>
+        <p><strong>Danh mục:</strong>
+          <%= product.category?.name || 'Chưa có' %>
+        </p>
+
+        <% if (product.variants && product.variants.length> 0) { %>
+          <div>
+            <p class="price">Giá từ: <%= product.variants[0].price.toLocaleString() %> VND</p>
+
+            <!-- Chọn biến thể -->
+            <label for="color">Chọn màu:</label>
+            <select id="color">
+              <% let colors=[...new Set(product.variants.map(v=> v.color))]; %>
+                <% colors.forEach(c=> { %>
+                  <option value="<%= c %>">
+                    <%= c %>
+                  </option>
+                  <% }) %>
+            </select>
+
+            <label for="storage">Chọn dung lượng:</label>
+            <select id="storage">
+              <% let storages=[...new Set(product.variants.map(v=> v.storage))]; %>
+                <% storages.forEach(s=> { %>
+                  <option value="<%= s %>">
+                    <%= s %>
+                  </option>
+                  <% }) %>
+            </select>
+
+            <button onclick="addToCart()">Thêm vào giỏ hàng</button>
+          </div>
+          <% } else { %>
+            <p class="text-danger">Không có thông tin biến thể.</p>
+            <% } %>
+
+              <!-- Cấu hình -->
+              <h4 style="margin-top: 20px; color:red ;">Cấu hình:</h4>
+              <ul>
+                <li><strong>Màn hình:</strong>
+                  <%= product.specs?.screen || '...' %>
+                </li>
+                <li><strong>Chip:</strong>
+                  <%= product.specs?.chip || '...' %>
+                </li>
+                <li><strong>Camera:</strong>
+                  <%= product.specs?.camera || '...' %>
+                </li>
+                <li><strong>Pin:</strong>
+                  <%= product.specs?.battery || '...' %>
+                </li>
+              </ul>
+      </div>
+    </div>
+    <a href="/edit-product/<%= product._id %>" class="btn btn-warning">Chỉnh sửa sản phẩm</a>
+  </div>
+
+  <script>
+    function changeImage(src) {
+      document.getElementById('mainImage').src = src;
+    }
+
+    function addToCart() {
+      const color = document.getElementById('color').value;
+      const storage = document.getElementById('storage').value;
+      alert(`Đã thêm sản phẩm vào giỏ hàng với màu: ${color}, dung lượng: ${storage}`);
+      // TODO: Gửi dữ liệu đến API giỏ hàng ở đây
+    }
+  </script>
+</body>
+
+</html>

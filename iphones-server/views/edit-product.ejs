@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉnh sửa sản phẩm</title>
+    <style>
+        body {
+            max-width: 800px;
+            margin: auto;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+        }
+
+        .variant-item,
+        .specs-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+        }
+
+        .remove-variant-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: crimson;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chỉnh sửa sản phẩm</h1>
+
+    <a href="/" class="back-link">← Quay lại</a>
+
+    <form action="/api/products/<%= product._id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_method" value="PUT">
+
+        <label>Tên sản phẩm</label>
+        <input type="text" name="name" value="<%= product.name %>" required>
+
+        <label>Mô tả ngắn</label>
+        <textarea name="description"><%= product.description %></textarea>
+
+        <label>Mô tả chi tiết (rich)</label>
+        <textarea name="richDescription"><%= product.richDescription %></textarea>
+
+        <label>Hình ảnh chính</label>
+        <input type="file" name="image" accept="image/*">
+        <% if (product.image) { %>
+            <p>Hình ảnh hiện tại:</p>
+            <img src="<%= product.image %>" width="100px">
+            <% } %>
+
+                <label>Ảnh phụ (nhiều ảnh)</label>
+                <input type="file" name="imagesMulti" accept="image/*" multiple>
+
+                <label>Thương hiệu</label>
+                <input type="text" name="brand" value="<%= product.brand %>">
+
+                <label>Danh mục</label>
+                <select name="category" class="form-select">
+                    <% categories.forEach(cat=> { %>
+                        <option value="<%= cat._id %>" <%=product.category &&
+                            cat._id.toString()===product.category._id.toString() ? 'selected' : '' %>>
+                            <%= cat.name %>
+                        </option>
+                        <% }) %>
+                </select>
+
+                <label>Nổi bật?</label>
+                <select name="isFeatured">
+                    <option value="false" <%=!product.isFeatured ? 'selected' : '' %>>Không</option>
+                    <option value="true" <%=product.isFeatured ? 'selected' : '' %>>Có</option>
+                </select>
+
+                <label>Biến thể sản phẩm</label>
+
+                <div id="variant-wrapper">
+                    <% product.variants.forEach((variant, index)=> { %>
+                        <div class="variant-item">
+                            <button type="button" class="remove-variant-btn" onclick="removeVariant(this)"
+                                style="<%= product.variants.length > 1 ? '' : 'display:none;' %>">x</button>
+
+                            <label for="variant-sku-<%= index %>">SKU</label>
+                            <input type="text" id="variant-sku-<%= index %>" placeholder="SKU" data-type="sku"
+                                value="<%= variant.sku %>" required>
+
+                            <label for="variant-color-<%= index %>">Màu sắc</label>
+                            <input type="text" id="variant-color-<%= index %>" placeholder="Màu sắc" data-type="color"
+                                value="<%= variant.color %>">
+
+                            <label for="variant-storage-<%= index %>">Dung lượng</label>
+                            <input type="text" id="variant-storage-<%= index %>" placeholder="Dung lượng"
+                                data-type="storage" value="<%= variant.storage %>">
+
+                            <label for="variant-price-<%= index %>">Giá</label>
+                            <input type="number" id="variant-price-<%= index %>" placeholder="Giá" data-type="price"
+                                value="<%= variant.price %>" min="0" required>
+
+                            <label for="variant-stock-<%= index %>">Tồn kho</label>
+                            <input type="number" id="variant-stock-<%= index %>" placeholder="Tồn kho" data-type="stock"
+                                value="<%= variant.stock %>" min="0" required>
+                        </div>
+                        <% }) %>
+                </div>
+
+
+
+                <button type="button" onclick="addVariant()">+ Thêm biến thể</button>
+
+                <label>Thông số kỹ thuật</label>
+                <div class="specs-box">
+                    <label for="spec_screen">Màn hình</label>
+                    <input type="text" id="spec_screen" name="spec_screen" placeholder="Màn hình"
+                        value="<%= product.specs.screen %>">
+
+                    <label for="spec_chip">Chip xử lý</label>
+                    <input type="text" id="spec_chip" name="spec_chip" placeholder="Chip xử lý"
+                        value="<%= product.specs.chip %>">
+
+                    <label for="spec_camera">Camera</label>
+                    <input type="text" id="spec_camera" name="spec_camera" placeholder="Camera"
+                        value="<%= product.specs.camera %>">
+
+                    <label for="spec_battery">Pin</label>
+                    <input type="text" id="spec_battery" name="spec_battery" placeholder="Pin"
+                        value="<%= product.specs.battery %>">
+                </div>
+
+                <!-- Các trường ẩn để gửi JSON -->
+                <input type="hidden" id="variants-json" name="variants">
+                <input type="hidden" id="specs-json" name="specs">
+
+                <button type="submit">Cập nhật sản phẩm</button>
+    </form>
+    <a href="/" class="back-link">← Quay lại</a>
+
+    <script>
+        function addVariant() {
+            const wrapper = document.getElementById('variant-wrapper');
+            const clone = wrapper.firstElementChild.cloneNode(true);
+            clone.querySelectorAll('input').forEach(input => input.value = '');
+            const removeBtn = clone.querySelector('.remove-variant-btn');
+            if (removeBtn) removeBtn.style.display = 'block';
+            wrapper.appendChild(clone);
+        }
+
+        function removeVariant(btn) {
+            const item = btn.closest('.variant-item');
+            const total = document.querySelectorAll('.variant-item').length;
+            if (total > 1) {
+                item.remove();
+            } else {
+                alert('Cần ít nhất một biến thể.');
+            }
+        }
+
+        document.querySelector('form').addEventListener('submit', async function (e) {
+            e.preventDefault(); // Ngăn chặn gửi form mặc định
+
+            const variants = [];
+            let valid = true;
+
+            // Thu thập dữ liệu từ các biến thể
+            document.querySelectorAll('#variant-wrapper .variant-item').forEach(item => {
+                const sku = item.querySelector('[data-type="sku"]').value.trim();
+                const color = item.querySelector('[data-type="color"]').value.trim();
+                const storage = item.querySelector('[data-type="storage"]').value.trim();
+                const price = parseFloat(item.querySelector('[data-type="price"]').value);
+                const stock = parseInt(item.querySelector('[data-type="stock"]').value);
+
+                if (isNaN(price) || isNaN(stock)) {
+                    valid = false;
+                    alert('Giá hoặc tồn kho không hợp lệ.');
+                    return;
+                }
+
+                variants.push({ sku, color, storage, price, stock });
+            });
+
+            if (!valid) {
+                return; // Dừng nếu dữ liệu không hợp lệ
+            }
+
+            // Thu thập dữ liệu từ thông số kỹ thuật
+            const specs = {
+                screen: document.querySelector('[name="spec_screen"]').value.trim(),
+                chip: document.querySelector('[name="spec_chip"]').value.trim(),
+                camera: document.querySelector('[name="spec_camera"]').value.trim(),
+                battery: document.querySelector('[name="spec_battery"]').value.trim()
+            };
+
+            // Gán dữ liệu JSON vào input ẩn
+            document.getElementById('variants-json').value = JSON.stringify(variants);
+            document.getElementById('specs-json').value = JSON.stringify(specs);
+
+            // Gửi form bằng fetch
+            const formData = new FormData(this);
+
+            try {
+                const response = await fetch(this.action, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    // Chuyển hướng đến URL được trả về từ API
+                    window.location.href = result.redirectUrl;
+                } else {
+                    alert(result.message || 'Đã xảy ra lỗi khi cập nhật sản phẩm');
+                }
+            } catch (err) {
+                console.error('Lỗi khi gửi form:', err);
+                alert('Đã xảy ra lỗi khi gửi form');
+            }
+        });
+    </script>
+
+</body>
+
+</html>

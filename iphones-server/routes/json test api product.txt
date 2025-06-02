@@ -1,0 +1,102 @@
+GET - http://localhost:5000/api/products
+
+POST - http://localhost:5000/api/products
+
+{
+    "name": "iPhone 11 Plus",
+    "description": "IPhone 11 với thiết kế sang trọng, camera kép và hiệu năng mạnh mẽ từ chip A13 Bionic.",
+    "richDescription": "iPhone 11 là lựa chọn hoàn hảo cho những ai tìm kiếm một chiếc điện thoại hiệu suất mạnh mẽ với mức giá hợp lý. Sở hữu màn hình Liquid Retina 6.1 inch, camera kép 12MP cho ảnh chụp sắc nét, cùng chip A13 Bionic siêu nhanh, chiếc iPhone này mang lại trải nghiệm mượt mà trong mọi tác vụ. Thiết kế mặt kính bóng bẩy và khả năng chống nước IP68 giúp iPhone 11 vừa bền bỉ vừa thời thượng.",
+    "image": "http://localhost:5000/public/uploads/1744798989702-den.jpg",
+    "images": [
+        "http://localhost:5000/public/uploads/1744798989717-iphone-11-den-1.jpg"
+    ],
+    "brand": "Apple",
+    "variants": [
+        {
+            "images": [],
+            "color": "Màu Đen",
+            "storage": "64GB",
+            "price": 16590000,
+            "stock": 34,
+            "discount": 50
+        },
+        {
+            "images": [],
+            "color": "Màu trắng",
+            "storage": "128GB",
+            "price": 185900000,
+            "stock": 20
+        }
+    ],
+    "specs": {
+        "screen": "Liquid Retina 6.1 inch",
+        "chip": "Apple A13 Bionic",
+        "camera": "Camera kép 12MP (chính + góc siêu rộng)",
+        "battery": "3110 mAh, hỗ trợ sạc nhanh 18W"
+    },
+    "category": "67fdf7ae209005bb88a63652",
+    "isFeatured": true
+}
+
+
+
+
+PUT - http://localhost:5000/api/products/6805be88fa41af7560fe5f71
+{
+    "_id": "6805c00deb3f8bba126956f3",
+    "name": "iPhone 11 Plus",
+    "description": "IPhone 11 với thiết kế sang trọng, camera kép và hiệu năng mạnh mẽ từ chip A13 Bionic.",
+    "richDescription": "iPhone 11 là lựa chọn hoàn hảo cho những ai tìm kiếm một chiếc điện thoại hiệu suất mạnh mẽ với mức giá hợp lý. Sở hữu màn hình Liquid Retina 6.1 inch, camera kép 12MP cho ảnh chụp sắc nét, cùng chip A13 Bionic siêu nhanh, chiếc iPhone này mang lại trải nghiệm mượt mà trong mọi tác vụ. Thiết kế mặt kính bóng bẩy và khả năng chống nước IP68 giúp iPhone 11 vừa bền bỉ vừa thời thượng.",
+    "image": "http://localhost:5000/public/uploads/1744798989702-den.jpg",
+    "images": [
+        "http://localhost:5000/public/uploads/1744798989717-iphone-11-den-1.jpg"
+    ],
+    "brand": "Apple",
+    "variants": [
+        {
+            "product": "6805c00deb3f8bba126956f3",
+            "color": "Màu Đen Xanh lá",
+            "storage": "512GB",
+            "price": 16590000,
+            "discount": 100,
+            "stock": 34,
+            "images": [],
+            "_id": "6805c00deb3f8bba126956f6",
+            "finalPrice": 8295000,
+            "id": "6805c00deb3f8bba126956f6"
+        },
+        {
+            "product": "6805c00deb3f8bba126956f3",
+            "color": "Màu trắng",
+            "storage": "128GB",
+            "price": 185900000,
+            "stock": 20,
+            "images": [],
+            "_id": "6805c00deb3f8bba126956f7",
+            "finalPrice": 185900000,
+            "id": "6805c00deb3f8bba126956f7"
+        }
+    ],
+    "specs": {
+        "screen": "Liquid Retina 6.1 inch",
+        "chip": "Apple A13 Bionic",
+        "camera": "Camera kép 12MP (chính + góc siêu rộng)",
+        "battery": "3110 mAh, hỗ trợ sạc nhanh 18W"
+    },
+    "category": {
+        "_id": "67fdf7ae209005bb88a63652",
+        "name": "iPhone 11 Series",
+        "icon": "https://example.com/icons/iphone.png",
+        "color": "#ff6699",
+        "createdAt": "2025-04-15T06:07:42.393Z",
+        "__v": 0,
+        "id": "67fdf7ae209005bb88a63652"
+    },
+    "isFeatured": false,
+    "averageRating": 5,
+    "numReviews": 0
+}
+
+
+
+DELETE - http://localhost:5000/api/products/6805be88fa41af7560fe5f71

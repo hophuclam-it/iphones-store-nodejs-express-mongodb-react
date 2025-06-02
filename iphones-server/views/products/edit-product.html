@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉnh sửa sản phẩm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<!-- <body class="bg-light p-4"> -->
+
+<body class=" p-4">
+
+    <div class="container-fluid">
+        <a href="/admin/product" class="back-link">← Quay lại</a>
+        <h2 class="mb-4">Chỉnh sửa sản phẩm</h2>
+        <form id="productForm" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label">Tên sản phẩm <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="name" id="productName" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Mô tả</label>
+                <textarea class="form-control" name="description" id="productDescription"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Mô tả chi tiết</label>
+                <textarea class="form-control" name="richDescription" id="productRichDescription"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="image" class="form-label">Ảnh sản phẩm (Đại diện)</label>
+                <input type="file" class="form-control" id="image" name="image" accept="image/*">
+                <div id="currentImage" class="mt-2"></div>
+            </div>
+
+            <div class="mb-3">
+                <label for="images" class="form-label">Ảnh sản phẩm</label>
+                <input type="file" class="form-control" id="images" name="images" accept="image/*" multiple>
+                <button type="button" class="btn btn-sm btn-outline-primary mt-2"
+                    onclick="openImageGalleryForImages()">Chọn ảnh từ thư viện</button>
+                <div id="imagesPreview" class="mt-2 d-flex gap-2 flex-wrap">
+                    <!-- Preview các ảnh đã chọn sẽ hiển thị ở đây -->
+                </div>
+                <input type="hidden" id="imagesUrls" name="imagesUrls">
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Thương hiệu</label>
+                <input type="text" class="form-control" name="brand" id="productBrand">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Chọn danh mục <span class="text-danger">*</span></label>
+                <select class="form-select" name="category" id="categorySelect" required>
+                    <option value="">-- Đang tải danh mục... --</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Sản phẩm nổi bật?</label>
+                <select class="form-select" name="isFeatured" id="isFeatured">
+                    <option value="false">Không</option>
+                    <option value="true">Có</option>
+                </select>
+            </div>
+
+            <hr>
+            <h4>Thông số kỹ thuật</h4>
+            <div class="row g-2">
+                <div class="col-md-3"><input type="text" name="specs[screen]" id="specScreen" class="form-control"
+                        placeholder="Màn hình"></div>
+                <div class="col-md-3"><input type="text" name="specs[chip]" id="specChip" class="form-control"
+                        placeholder="Chip xử lý"></div>
+                <div class="col-md-3"><input type="text" name="specs[camera]" id="specCamera" class="form-control"
+                        placeholder="Camera"></div>
+                <div class="col-md-3"><input type="text" name="specs[battery]" id="specBattery" class="form-control"
+                        placeholder="Pin"></div>
+            </div>
+
+            <hr>
+            <h4>Biến thể sản phẩm</h4>
+            <div id="variants"></div>
+            <button type="button" class="btn btn-secondary my-3" onclick="addVariant()">+ Thêm biến thể</button>
+
+            <button type="submit" class="btn btn-primary">Cập nhật sản phẩm</button>
+        </form>
+
+        <div id="result" class="mt-4"></div>
+    </div>
+
+    <script>
+        let variantIndex = 1; // Bắt đầu từ 1 để tránh trùng với biến thể mặc định
+        let currentGalleryTarget = null; // Biến lưu trữ biến thể hiện tại
+        let selectedGalleryImages = {}; // Lưu trữ ảnh đã chọn cho từng biến thể
+
+        // Load dữ liệu sản phẩm
+        async function loadProductData() {
+            try {
+                const productId = window.location.pathname.split('/').pop(); // Lấy ID sản phẩm từ URL
+                const res = await fetch(`http://localhost:5000/api/products/${productId}`);
+                const product = await res.json();
+
+                // Điền dữ liệu vào form
+                document.getElementById('productName').value = product.name;
+                document.getElementById('productDescription').value = product.description;
+                document.getElementById('productRichDescription').value = product.richDescription;
+                document.getElementById('productBrand').value = product.brand;
+                document.getElementById('isFeatured').value = product.isFeatured ? 'true' : 'false';
+
+                // Hiển thị ảnh đại diện
+                if (product.image) {
+                    document.getElementById('currentImage').innerHTML = `<img src="${product.image}" alt="Ảnh sản phẩm" class="img-thumbnail" style="max-width: 150px;">`;
+                }
+
+                // Hiển thị danh sách ảnh sản phẩm
+                if (Array.isArray(product.images) && product.images.length > 0) {
+                    selectedGalleryImages['images'] = product.images; // Lưu danh sách ảnh vào biến toàn cục
+
+                    // Tự động chọn ảnh trong modal
+                    product.images.forEach(imgUrl => {
+                        // toggleImageSelectionForImages(imgUrl);
+                        updateGalleryImageStyles();
+                    });
+
+                    showImagesPreview(); // Hiển thị preview ảnh
+                } else {
+                    console.warn('Không tìm thấy danh sách ảnh sản phẩm hoặc danh sách trống.');
+                }
+
+
+                // Điền thông số kỹ thuật
+                document.getElementById('specScreen').value = product.specs?.screen || '';
+                document.getElementById('specChip').value = product.specs?.chip || '';
+                document.getElementById('specCamera').value = product.specs?.camera || '';
+                document.getElementById('specBattery').value = product.specs?.battery || '';
+
+                // Điền danh mục
+                const categorySelect = document.getElementById('categorySelect');
+                categorySelect.innerHTML = `<option value="">-- Chọn danh mục --</option>`;
+                const categories = await fetch('http://localhost:5000/api/categories').then(res => res.json());
+                categories.forEach(cat => {
+                    const option = document.createElement('option');
+                    option.value = cat._id;
+                    option.textContent = cat.name;
+                    if (product.category?._id === cat._id) {
+                        option.selected = true;
+                    }
+                    categorySelect.appendChild(option);
+                });
+
+                // Hiển thị biến thể
+                product.variants.forEach((variant, index) => {
+                    addVariant(index, variant);
+                });
+            } catch (err) {
+                console.error('Lỗi khi tải dữ liệu sản phẩm:', err);
+            }
+        }
+
+        function addVariant(index = null, variant = {}) {
+            const variantId = index !== null ? index : variantIndex++;
+            const variantHtml = `
+                <div class="border rounded p-3 mb-3 position-relative" id="variant-${variantId}">
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2" aria-label="Xóa" onclick="removeVariant(${variantId})"></button>
+                    <h5>Biến thể #${variantId + 1}</h5>
+                    <div class="row g-2">
+                        <div class="col-md-4"><input type="text" class="form-control" name="variantColor-${variantId}" value="${variant.color || ''}" placeholder="Màu sắc" required></div>
+                        <div class="col-md-4"><input type="text" class="form-control" name="variantStorage-${variantId}" value="${variant.storage || ''}" placeholder="Dung lượng" required></div>
+                        <div class="col-md-4"><input type="number" class="form-control" name="variantPrice-${variantId}" value="${variant.price || ''}" placeholder="Giá" required></div>
+                        <div class="col-md-4 mt-2"><input type="number" class="form-control" name="variantDiscount-${variantId}" value="${variant.discount || 0}" placeholder="Giảm giá (%)"></div>
+                        <div class="col-md-4 mt-2"><input type="number" class="form-control" name="variantStock-${variantId}" value="${variant.stock || ''}" placeholder="Tồn kho" required></div>
+                    </div>
+                </div>`;
+            document.getElementById('variants').insertAdjacentHTML('beforeend', variantHtml);
+        }
+
+        function removeVariant(id) {
+            const el = document.getElementById(`variant-${id}`);
+            if (el) el.remove();
+        }
+
+        document.addEventListener('DOMContentLoaded', loadProductData);
+
+
+        // Mở modal và tải ảnh từ thư viện
+        async function openImageGallery(variantIndex) {
+            currentGalleryTarget = variantIndex;
+
+            try {
+                const res = await fetch("http://localhost:5000/api/uploads");
+                const images = await res.json();
+                const container = document.getElementById("galleryImagesContainer");
+                container.innerHTML = '';
+
+                const selected = selectedGalleryImages[variantIndex] || [];
+                const groupedImages = groupImagesByTime(images);
+
+                for (const [groupName, groupImages] of Object.entries(groupedImages)) {
+                    if (groupImages.length === 0) continue;
+
+                    const groupTitle = document.createElement("h6");
+                    groupTitle.innerText = groupName;
+                    container.appendChild(groupTitle);
+
+
+                    // Ngắt dòng trước nhóm
+                    const preLineBreak = document.createElement("div");
+                    preLineBreak.className = "w-100";
+                    container.appendChild(preLineBreak);
+
+
+                    const groupRow = document.createElement("div");
+                    groupRow.className = "d-flex flex-wrap mb-2";
+
+                    groupImages.forEach(img => {
+                        const isSelected = selected.includes(img.url);
+
+                        const imgEl = document.createElement("img");
+                        imgEl.src = img.url;
+                        imgEl.className = "img-thumbnail m-1";
+                        imgEl.style.width = "100px";
+                        imgEl.style.cursor = "pointer";
+                        imgEl.style.opacity = isSelected ? "0.5" : "1";
+                        imgEl.style.border = isSelected ? "2px solid green" : "none";
+                        imgEl.title = img.url; // Hiển thị URL khi hover
+
+                        imgEl.onclick = () => {
+                            toggleImageSelection(img.url);
+                        };
+
+                        groupRow.appendChild(imgEl);
+                    });
+
+                    container.appendChild(groupRow);
+
+
+                    // Ngắt dòng sau nhóm
+                    const postLineBreak = document.createElement("div");
+                    postLineBreak.className = "w-100";
+                    container.appendChild(postLineBreak);
+                }
+
+                // Hiển thị modal nếu chưa mở
+                let modalInstance = bootstrap.Modal.getInstance(document.getElementById("imageGalleryModal"));
+                if (!modalInstance) {
+                    modalInstance = new bootstrap.Modal(document.getElementById("imageGalleryModal"));
+                }
+                modalInstance.show();
+
+            } catch (err) {
+                console.error("Lỗi khi tải danh sách ảnh:", err);
+            }
+        }
+
+        // Xử lý chọn và bỏ chọn ảnh
+        function toggleImageSelection(imgUrl) {
+            const selectedImages = selectedGalleryImages[currentGalleryTarget] || [];
+            const index = selectedImages.indexOf(imgUrl);
+            if (index !== -1) {
+                selectedImages.splice(index, 1); // Xóa ảnh khỏi danh sách
+            } else {
+                selectedImages.push(imgUrl); // Thêm ảnh vào danh sách
+            }
+            selectedGalleryImages[currentGalleryTarget] = selectedImages;
+            showGalleryPreview(currentGalleryTarget); // Cập nhật preview ảnh
+            openImageGallery(currentGalleryTarget); // Mở lại modal để cập nhật trạng thái
+        }
+
+
+
+        function showGalleryPreview(variantIndex) {
+            const preview = document.getElementById(`galleryPreview-${variantIndex}`);
+            if (!preview) return;
+
+            preview.innerHTML = ''; // Làm sạch preview
+
+            (selectedGalleryImages[variantIndex] || []).forEach((url, index) => {
+                const wrapper = document.createElement("div");
+                wrapper.className = "position-relative d-inline-block";
+
+                const img = document.createElement("img");
+                img.src = url;
+                img.className = "img-thumbnail";
+                img.style.width = "80px";
+                img.style.height = "80px";
+                img.style.objectFit = "cover";
+                img.style.marginRight = "2px";
+
+                const closeBtn = document.createElement("button");
+                closeBtn.innerHTML = "&times;";
+                closeBtn.className = "btn btn-sm btn-danger position-absolute top-0 end-0";
+                closeBtn.style.transform = "translate(30%, -30%)";
+                closeBtn.onclick = () => {
+                    selectedGalleryImages[variantIndex].splice(index, 1);
+                    showGalleryPreview(variantIndex); // Cập nhật lại preview
+                };
+
+                wrapper.appendChild(img);
+                wrapper.appendChild(closeBtn);
+                preview.appendChild(wrapper);
+            });
+
+            // Cập nhật input ẩn nếu có
+            const input = document.querySelector(`[name="variantImagesUrl-${variantIndex}"]`);
+            if (input) {
+                input.value = selectedGalleryImages[variantIndex].join(", ");
+            }
+        }
+
+        function groupImagesByTime(images) {
+            const now = new Date();
+            const groups = {
+                "Hôm nay": [],
+                "Hôm qua": [],
+                "7 ngày qua": [],
+                "30 ngày qua": [],
+                "Cũ hơn": []
+            };
+
+            images.forEach(img => {
+                const created = new Date(img.createdAt);
+                const diffMs = now - created;
+                const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+                if (diffDays < 1) {
+                    groups["Hôm nay"].push(img);
+                } else if (diffDays < 2) {
+                    groups["Hôm qua"].push(img);
+                } else if (diffDays < 7) {
+                    groups["7 ngày qua"].push(img);
+                } else if (diffDays < 30) {
+                    groups["30 ngày qua"].push(img);
+                } else {
+                    groups["Cũ hơn"].push(img);
+                }
+            });
+
+            return groups;
+        }
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const uploadForm = document.getElementById("uploadForm");
+
+            if (uploadForm) {
+                uploadForm.addEventListener("submit", async function (e) {
+                    e.preventDefault();
+
+                    const fileInput = document.getElementById("uploadImage");
+                    const status = document.getElementById("uploadStatus");
+                    status.textContent = "Đang tải lên...";
+
+                    if (fileInput.files.length === 0) return;
+
+                    const formData = new FormData();
+
+                    Array.from(fileInput.files).forEach(file => {
+                        formData.append("files", file);
+                    });
+
+                    try {
+                        const response = await fetch("http://localhost:5000/api/uploads/multiple", {
+                            method: "POST",
+                            body: formData,
+                        });
+
+                        const data = await response.json();
+                        if (response.ok) {
+                            status.textContent = "Tải ảnh thành công!";
+                            fileInput.value = ""; // Reset input file
+                            // Load lại ảnh từ thư viện sau khi tải ảnh mới lên
+                            await openImageGallery(currentGalleryTarget);
+                        } else {
+                            status.textContent = "Không quá 10 ảnh trong 1 lần tải lên. Lỗi: " + (data.message || "Không rõ nguyên nhân");
+                        }
+                    } catch (err) {
+                        status.textContent = "Lỗi kết nối máy chủ.";
+                        console.error(err);
+                    }
+                });
+            }
+        });
+
+
+        // Khi mở modal chọn ảnh cho sản phẩm (images)
+        async function openImageGalleryForImages() {
+            currentGalleryTarget = 'images';
+            try {
+                const res = await fetch("http://localhost:5000/api/uploads");
+                const images = await res.json();
+                const container = document.getElementById("galleryImagesContainer");
+                container.innerHTML = '';
+
+                const selected = selectedGalleryImages['images'] || [];
+                const groupedImages = groupImagesByTime(images);
+
+                for (const [groupName, groupImages] of Object.entries(groupedImages)) {
+                    if (groupImages.length === 0) continue;
+
+                    const groupTitle = document.createElement("h6");
+                    groupTitle.innerText = groupName;
+                    container.appendChild(groupTitle);
+
+
+                    // Ngắt dòng trước nhóm
+                    const preLineBreak = document.createElement("div");
+                    preLineBreak.className = "w-100";
+                    container.appendChild(preLineBreak);
+
+
+
+                    const groupRow = document.createElement("div");
+                    groupRow.className = "d-flex flex-wrap mb-2";
+
+                    groupImages.forEach(img => {
+                        const isSelected = selected.includes(img.url);
+
+                        const imgEl = document.createElement("img");
+                        imgEl.src = img.url;
+                        imgEl.className = "img-thumbnail m-1 gallery-image"; // Thêm class gallery-image để dễ xử lý
+                        imgEl.style.width = "100px";
+                        imgEl.style.cursor = "pointer";
+                        imgEl.style.opacity = isSelected ? "0.5" : "1";
+                        imgEl.style.border = isSelected ? "2px solid green" : "none";
+                        imgEl.title = img.url;
+
+                        imgEl.onclick = () => {
+                            toggleImageSelectionForImages(img.url, imgEl);
+                        };
+
+                        groupRow.appendChild(imgEl);
+                    });
+
+
+                    container.appendChild(groupRow);
+
+
+                    // Ngắt dòng sau nhóm
+                    const postLineBreak = document.createElement("div");
+                    postLineBreak.className = "w-100";
+                    container.appendChild(postLineBreak);
+                }
+
+                let modalInstance = bootstrap.Modal.getInstance(document.getElementById("imageGalleryModal"));
+                if (!modalInstance) {
+                    modalInstance = new bootstrap.Modal(document.getElementById("imageGalleryModal"));
+                }
+                modalInstance.show();
+
+            } catch (err) {
+                console.error("Lỗi khi tải danh sách ảnh:", err);
+            }
+        }
+
+        // Hàm chọn/bỏ chọn ảnh cho sản phẩm
+        function toggleImageSelectionForImages(imgUrl, imgEl) {
+            const selectedImages = selectedGalleryImages['images'] || [];
+            const index = selectedImages.indexOf(imgUrl);
+
+            if (index !== -1) {
+                selectedImages.splice(index, 1); // Bỏ chọn
+            } else {
+                selectedImages.push(imgUrl); // Chọn thêm
+            }
+
+            selectedGalleryImages['images'] = selectedImages;
+
+            // Cập nhật style ngay cho ảnh vừa click
+            if (selectedImages.includes(imgUrl)) {
+                imgEl.style.opacity = "0.5";
+                imgEl.style.border = "2px solid green";
+            } else {
+                imgEl.style.opacity = "1";
+                imgEl.style.border = "none";
+            }
+
+            showImagesPreview(); // Cập nhật lại preview
+        }
+
+        // Hàm hiển thị ảnh preview cho sản phẩm
+        function showImagesPreview() {
+            const preview = document.getElementById("imagesPreview");
+            if (!preview) return;
+
+            preview.innerHTML = '';
+
+            (selectedGalleryImages['images'] || []).forEach((url, index) => {
+                const wrapper = document.createElement("div");
+                wrapper.className = "position-relative d-inline-block";
+
+                const img = document.createElement("img");
+                img.src = url;
+                img.className = "img-thumbnail";
+                img.style.width = "80px";
+                img.style.height = "80px";
+                img.style.objectFit = "cover";
+                img.style.marginRight = "2px";
+
+                const closeBtn = document.createElement("button");
+                closeBtn.innerHTML = "&times;";
+                closeBtn.className = "btn btn-sm btn-danger position-absolute top-0 end-0";
+                closeBtn.style.transform = "translate(30%, -30%)";
+                closeBtn.onclick = () => {
+                    selectedGalleryImages['images'].splice(index, 1);
+                    showImagesPreview(); // Cập nhật preview
+                    updateGalleryImageStyles(); // Cập nhật style ảnh trong modal nếu modal đang mở
+                };
+
+                wrapper.appendChild(img);
+                wrapper.appendChild(closeBtn);
+                preview.appendChild(wrapper);
+            });
+
+            // Cập nhật input hidden
+            const input = document.getElementById("imagesUrls");
+            if (input) {
+                input.value = selectedGalleryImages['images']
+                    .map(url => url.startsWith('http') ? url : `http://localhost:5000${url}`)
+                    .join(", ");
+            }
+        }
+
+        // Hàm cập nhật lại style tất cả ảnh trong modal
+        function updateGalleryImageStyles() {
+            const selectedImages = selectedGalleryImages['images'] || [];
+            const galleryImages = document.querySelectorAll("#galleryImagesContainer img.gallery-image");
+
+            galleryImages.forEach(imgEl => {
+                if (selectedImages.includes(imgEl.src)) {
+                    imgEl.style.opacity = "0.5";
+                    imgEl.style.border = "2px solid green";
+                } else {
+                    imgEl.style.opacity = "1";
+                    imgEl.style.border = "none";
+                }
+            });
+        }
+
+
+
+
+
+
+        // Xử lý submit form
+        document.getElementById('productForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const formData = new FormData();
+
+            // Lấy ID sản phẩm từ URL
+            const productId = window.location.pathname.split('/').pop();
+
+            // Basic fields
+            formData.append('name', form.name.value);
+            formData.append('description', form.description.value);
+            formData.append('richDescription', form.richDescription.value);
+            formData.append('brand', form.brand.value);
+            formData.append('category', form.category.value);
+            formData.append('isFeatured', form.isFeatured.value === 'true');
+
+            // Specs as object
+            const specs = {
+                screen: form["specs[screen]"].value,
+                chip: form["specs[chip]"].value,
+                camera: form["specs[camera]"].value,
+                battery: form["specs[battery]"].value
+            };
+            formData.append('specs', JSON.stringify(specs));
+
+
+
+            // formData.append('images', JSON.stringify(imagesUrls));
+            // Xử lý danh sách ảnh
+            const imagesUrls = form.imagesUrls.value
+                .split(',')
+                .map(url => url.trim())
+                .filter(Boolean)
+                .map(url => url.startsWith('http') ? url : `http://localhost:5000${url}`);
+
+            if (imagesUrls.length === 0) {
+                alert("Vui lòng chọn ít nhất một ảnh sản phẩm.");
+                return;
+            }
+
+            // Thêm từng URL vào formData dưới dạng mảng
+            imagesUrls.forEach(url => {
+                formData.append('images[]', url);
+            });
+
+            // Xử lý ảnh đại diện
+            if (form.image && form.image.files && form.image.files.length > 0) {
+                formData.append('image', form.image.files[0]);
+            } else if (imagesUrls.length > 0) {
+                formData.append('image', imagesUrls[0]); // Lấy ảnh đầu tiên làm đại diện
+            } else {
+                alert("Vui lòng tải lên ảnh đại diện hoặc chọn ảnh từ thư viện.");
+                return;
+            }
+
+
+            // // Build variants
+            const variants = [];
+            const variantImages = [];
+
+            const variantElements = document.querySelectorAll('[id^="variant-"]');
+
+            variantElements.forEach(variantEl => {
+                const id = variantEl.id.split('-')[1]; // Lấy chỉ số, ví dụ '2' từ id="variant-2"
+
+                const color = form[`variantColor-${id}`]?.value;
+                const storage = form[`variantStorage-${id}`]?.value;
+                const price = parseFloat(form[`variantPrice-${id}`]?.value || 0);
+                const discount = parseFloat(form[`variantDiscount-${id}`]?.value || 0);
+                const stock = parseInt(form[`variantStock-${id}`]?.value || 0);
+
+                if (!color || !storage) return;
+
+                const variant = { color, storage, price, discount, stock, images: [] };
+
+                // Xử lý ảnh biến thể
+                const fileInput = form[`variantImagesFile-${id}`];
+                const url = form[`variantImagesUrl-${id}`]?.value;
+
+                if (fileInput?.files?.length > 0) {
+                    Array.from(fileInput.files).forEach(file => {
+                        const fileKey = `variant-${id}-${file.name}`;
+                        formData.append('variantImages', file, fileKey);
+                        variant.images.push(fileKey);
+                    });
+                } else if (url) {
+                    variant.images.push(...url.split(',').map(s => s.trim()).filter(Boolean));
+                }
+
+                variants.push(variant);
+            });
+
+            formData.append('variants', JSON.stringify(variants));
+
+            // Gửi dữ liệu đến API
+            try {
+                const response = await fetch(`http://localhost:5000/api/products/${productId}`, {
+                    method: 'PUT',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    document.getElementById("result").innerHTML = `<div class="alert alert-success">
+                        ✔ Sản phẩm đã được cập nhật thành công! <br>
+                        <a href="/admin/product/${productId}">Xem sản phẩm</a>
+
+                        </div>`;
+                } else {
+                    document.getElementById("result").innerHTML = `<div class="alert alert-danger">❌ ${result.message || 'Có lỗi xảy ra'}</div>`;
+                }
+            } catch (err) {
+                console.error('Lỗi khi cập nhật sản phẩm:', err);
+                document.getElementById("result").innerHTML = `<div class="alert alert-danger">❌ Lỗi khi gửi dữ liệu</div>`;
+            }
+        });
+
+
+    </script>
+    <!-- Modal chọn ảnh từ thư viện -->
+    <div class="modal fade" id="imageGalleryModal" tabindex="-1" aria-labelledby="imageGalleryModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Chọn ảnh từ thư viện</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body overflow-auto" style="max-height: 75vh; padding-right: 0px;">
+                    <div id="galleryImagesContainer" class="mb-4 d-flex flex-wrap gap-2">
+                        <!-- Ảnh sẽ được load từ server -->
+                    </div>
+
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <form id="uploadForm" enctype="multipart/form-data">
+                        <div class="input-group">
+                            <input type="file" class="form-control" name="image" id="uploadImage" accept="image/*"
+                                multiple required>
+                            <button class="btn btn-primary" type="submit">Tải lên</button>
+                        </div>
+                    </form>
+                    <div id="uploadStatus" class="text-muted small"></div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

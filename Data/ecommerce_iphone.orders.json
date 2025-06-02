@@ -1,0 +1,3790 @@
+[{
+  "_id": {
+    "$oid": "680b370baace02068bf31df1"
+  },
+  "user": {
+    "$oid": "680b36e9aace02068bf31bd7"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808fcd64edd34ee095599a8"
+      },
+      "variantSku": "IPHONE-16-PLUS-XANH-LUU-LY-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680b370baace02068bf31df2"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68091c864edd34ee09559c81"
+      },
+      "variantSku": "IPHONE-16-HONG-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680b370baace02068bf31df3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "1003 Nguyễn Kiệm",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 66980000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-25T07:17:31.236Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-04-28T08:56:04.789Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680c1ee6d04fbf4e4331dbf0"
+  },
+  "user": {
+    "$oid": "680c1e88d04fbf4e4331d778"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680909744edd34ee09559a17"
+      },
+      "variantSku": "IPHONE-16E-DEN-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680c1ee6d04fbf4e4331dbf1"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "pending",
+  "totalPrice": 25990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-25T23:46:46.448Z"
+  },
+  "__v": 0,
+  "updateAt": {
+    "$date": "2025-04-26T19:04:51.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680c4e9e224d021717f8e319"
+  },
+  "user": {
+    "$oid": "68075333f7cf0c3086f8372c"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680876668bd275489c7856bb"
+      },
+      "variantSku": "IPHONE-14-XANH-DUONG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680c4e9e224d021717f8e31a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 17990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-26T03:10:22.558Z"
+  },
+  "__v": 0,
+  "updateAt": {
+    "$date": "2025-04-26T19:01:26.136Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680c4ec6224d021717f8e5e2"
+  },
+  "user": {
+    "$oid": "68075333f7cf0c3086f8372c"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b923dfc6fceb3ca3beb07"
+      },
+      "variantSku": "IPHONE-14-PRO-BLACK-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680c4ec6224d021717f8e5e3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 21990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-26T03:11:02.845Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d2eae5979b4b79c2e452c"
+  },
+  "user": {
+    "$oid": "680d2e9a5979b4b79c2e42ef"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808f9194edd34ee0955993e"
+      },
+      "variantSku": "IPHONE-16-PRO-TITAN-SA-MAC-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680d2eae5979b4b79c2e452d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 28990000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-26T19:06:22.370Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-26T19:08:40.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d9ab72cc6d2924b966931"
+  },
+  "user": {
+    "$oid": "680c1e88d04fbf4e4331d778"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6809196d4edd34ee09559bc4"
+      },
+      "variantSku": "IPHONE-16-PRO-TITAN-SA-MAC-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680d9ab82cc6d2924b966932"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "completed",
+  "totalPrice": 31990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-27T02:47:20.003Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-27T02:55:55.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680d9d0c2cc6d2924b966b89"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808e48e4edd34ee09559709"
+      },
+      "variantSku": "IPHONE-15-PRO-MAX-TITAN-TRANG-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680d9d0c2cc6d2924b966b8a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "completed",
+  "totalPrice": 30990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-27T02:57:16.501Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-28T07:31:47.225Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-04-28T07:35:36.623Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680dfe5aa7f7c8a147dfa90d"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680919ed4edd34ee09559be4"
+      },
+      "variantSku": "IPHONE-16-PRO-TITAN-TRANG-1TB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680dfe5aa7f7c8a147dfa90e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "84/18 Huỳnh Khương An",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 43990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-27T09:52:26.946Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-27T09:56:42.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680dffb3a7f7c8a147dfaf5c"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808fcd64edd34ee095599a8"
+      },
+      "variantSku": "IPHONE-16-PLUS-XANH-LUU-LY-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680dffb3a7f7c8a147dfaf5d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "1003 Nguyễn Kiệm",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 34990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-27T09:58:11.192Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-27T10:05:11.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e01aca7f7c8a147dfb2fe"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "68091d834edd34ee09559cd0"
+      },
+      "variantSku": "IPHONE-16-PLUS-DEN-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680e01aca7f7c8a147dfb2ff"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 25990000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-27T10:06:36.652Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-27T10:07:09.209Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-04-28T07:41:33.985Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680f2b08f8beee361f9184d8"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680ae3bc89cf3e2706cc6205"
+      },
+      "variantSku": "IPHONE-12-MINI-XANH-DUONG-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680f2b08f8beee361f9184d9"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68091acf4edd34ee09559c06"
+      },
+      "variantSku": "IPHONE-16-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680f2b08f8beee361f9184da"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 35480000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-28T07:15:20.877Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-28T07:24:12.337Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2025-04-28T08:58:06.109Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680f69ba5f1f83cbcfa7fa3c"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6809196d4edd34ee09559bc4"
+      },
+      "variantSku": "IPHONE-16-PRO-TITAN-SA-MAC-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680f69ba5f1f83cbcfa7fa3d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "1003 Nguyễn Kiệm",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "completed",
+  "totalPrice": 31990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-28T11:42:50.945Z"
+  },
+  "updateAt": {
+    "$date": "2025-04-28T11:43:21.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f75542cd9fccfbc26ebe4"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adb9105704f39e89761c4"
+      },
+      "variantSku": "IPHONE-11-TRANG-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680f75542cd9fccfbc26ebe5"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 9990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-28T12:32:20.900Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T12:32:20.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fb8cd70b5bc8006bf11ef"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808e2984edd34ee095596aa"
+      },
+      "variantSku": "IPHONE-15-PLUS-XANH-LA-NHAT-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fb8cd70b5bc8006bf11f0"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 22990000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-28T17:20:13.006Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T17:20:13.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fc83415318b5d990c5cc0"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680ae3bc89cf3e2706cc6205"
+      },
+      "variantSku": "IPHONE-12-MINI-XANH-DUONG-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc83415318b5d990c5cc1"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68091acf4edd34ee09559c06"
+      },
+      "variantSku": "IPHONE-16-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc83415318b5d990c5cc2"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "123456789",
+  "status": "cancelled",
+  "totalPrice": 35480000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-28T18:25:56.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T18:25:56.516Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fc8829df0ea52bb820539"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680ae3bc89cf3e2706cc6205"
+      },
+      "variantSku": "IPHONE-12-MINI-XANH-DUONG-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc8829df0ea52bb82053a"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68091acf4edd34ee09559c06"
+      },
+      "variantSku": "IPHONE-16-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc8829df0ea52bb82053b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "123456789",
+  "status": "cancelled",
+  "totalPrice": 35480000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-28T18:27:14.300Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T18:27:14.300Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fc96ae74b5876153dd460"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680ae3bc89cf3e2706cc6205"
+      },
+      "variantSku": "IPHONE-12-MINI-XANH-DUONG-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc96ae74b5876153dd461"
+      }
+    },
+    {
+      "product": {
+        "$oid": "68091acf4edd34ee09559c06"
+      },
+      "variantSku": "IPHONE-16-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc96ae74b5876153dd462"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "123456789",
+  "status": "cancelled",
+  "totalPrice": 35480000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-28T18:31:06.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T18:31:06.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fc982e74b5876153dd6d2"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808f9194edd34ee0955993e"
+      },
+      "variantSku": "IPHONE-16-PRO-TITAN-SA-MAC-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc982e74b5876153dd6d3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "123456789",
+  "status": "cancelled",
+  "totalPrice": 28990000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-28T18:31:30.911Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T18:31:30.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fc993e74b5876153dd92f"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fc993e74b5876153dd930"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "123456789",
+  "status": "cancelled",
+  "totalPrice": 21990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-28T18:31:47.368Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T18:31:47.368Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680fdab997e37764c8a7818b"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adcfe05704f39e89765da"
+      },
+      "variantSku": "IPHONE-11-XANH-LA-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "680fdab997e37764c8a7818c"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "123456789",
+  "status": "pending",
+  "totalPrice": 9990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-28T19:44:57.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-28T19:44:57.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810174cfe67eca1cc5ff06e"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808eacc4edd34ee095597bc"
+      },
+      "variantSku": "IPHONE-15-PLUS-DEN-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810174cfe67eca1cc5ff06f"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0912345678",
+  "status": "completed",
+  "totalPrice": 22990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T00:03:24.875Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:22:18.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681018698dcc7e6d912a35db"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808d6ce4edd34ee095595bc"
+      },
+      "variantSku": "IPHONE-14-PLUS-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681018698dcc7e6d912a35dc"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "confirmed",
+  "totalPrice": 19990000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-29T00:08:09.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:20:06.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810187c8dcc7e6d912a3820"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680913684edd34ee09559a99"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-TU-NHIEN-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810187c8dcc7e6d912a3821"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "pending",
+  "totalPrice": 34990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:08:28.586Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:08:28.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681018808dcc7e6d912a3823"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680913684edd34ee09559a99"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-TU-NHIEN-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681018808dcc7e6d912a3824"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "pending",
+  "totalPrice": 34990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:08:32.712Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:08:32.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681018b32895a44051fb34fb"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adb9105704f39e89761c4"
+      },
+      "variantSku": "IPHONE-11-TRANG-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681018b32895a44051fb34fc"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 13990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:09:23.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:09:23.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68101c4c7b823afe53de50d0"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680913684edd34ee09559a99"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-TU-NHIEN-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68101c4c7b823afe53de50d1"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "pending",
+  "totalPrice": 34990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:24:44.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:24:44.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68101ca05fb83776440f4c00"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680913684edd34ee09559a99"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-TU-NHIEN-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68101ca05fb83776440f4c01"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "Go Vap",
+    "city": "Thanh Pho Ho Chi Minh",
+    "zip": "71400",
+    "country": "Việt Nam"
+  },
+  "phone": "12345678",
+  "status": "pending",
+  "totalPrice": 34990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:26:08.042Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:26:08.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68101cfffe67eca1cc5ffeb6"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808f57d4edd34ee09559919"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-SA-MAC-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68101cfffe67eca1cc5ffeb7"
+      }
+    },
+    {
+      "product": {
+        "$oid": "680a6be551fc9c95e8a78177"
+      },
+      "variantSku": "IPHONE-13-DEN-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68101cfffe67eca1cc5ffeb8"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "confirmed",
+  "totalPrice": 49980000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-29T00:27:43.082Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:45:54.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68101d7a6770f1d9ef3ead9c"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680908674edd34ee095599f1"
+      },
+      "variantSku": "IPHONE-16-XANH-MONG-KET-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68101d7a6770f1d9ef3ead9d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "cancelled",
+  "totalPrice": 22990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:29:46.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:29:46.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810215a2895a44051fb4929"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adb9105704f39e89761c4"
+      },
+      "variantSku": "IPHONE-11-TRANG-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810215a2895a44051fb492a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 13990000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:46:18.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:46:18.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810216d2895a44051fb493d"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adb9105704f39e89761c4"
+      },
+      "variantSku": "IPHONE-11-TRANG-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810216d2895a44051fb493e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 13990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T00:46:37.145Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:46:37.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681021f724edf41686d7090e"
+  },
+  "user": {
+    "$oid": "681021c524edf41686d706ca"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adaaa05704f39e8975fc5"
+      },
+      "variantSku": "IPHONE-11-DEN-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681021f724edf41686d7090f"
+      }
+    },
+    {
+      "product": {
+        "$oid": "680b9382fc6fceb3ca3bef8e"
+      },
+      "variantSku": "IPHONE-14-PLUS-GOLD-EDITION-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681021f724edf41686d70910"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "1003 Nguyễn Kiệm",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "cancelled",
+  "totalPrice": 37980000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T00:48:55.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:48:55.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810221224edf41686d7092c"
+  },
+  "user": {
+    "$oid": "681021c524edf41686d706ca"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680adaaa05704f39e8975fc5"
+      },
+      "variantSku": "IPHONE-11-DEN-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810221224edf41686d7092d"
+      }
+    },
+    {
+      "product": {
+        "$oid": "680b9382fc6fceb3ca3bef8e"
+      },
+      "variantSku": "IPHONE-14-PLUS-GOLD-EDITION-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810221224edf41686d7092e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "completed",
+  "totalPrice": 37980000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T00:49:22.645Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T00:50:28.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681045d6e37a09876d83f263"
+  },
+  "user": {
+    "$oid": "681021c524edf41686d706ca"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b8cf8fc6fceb3ca3be7b3"
+      },
+      "variantSku": "IPHONE-15-PLUS-YELLOW-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681045d6e37a09876d83f264"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 19992000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T03:21:58.513Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:21:58.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104794e37a09876d841093"
+  },
+  "user": {
+    "$oid": "68104765e37a09876d840a93"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808f57d4edd34ee09559919"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-SA-MAC-1TB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68104794e37a09876d841094"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "cancelled",
+  "totalPrice": 42291000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T03:29:24.373Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:29:24.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681047cde37a09876d841233"
+  },
+  "user": {
+    "$oid": "68104765e37a09876d840a93"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808f57d4edd34ee09559919"
+      },
+      "variantSku": "IPHONE-16-PRO-MAX-TITAN-SA-MAC-1TB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681047cde37a09876d841234"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "confirmed",
+  "totalPrice": 46990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T03:30:21.069Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:30:41.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810480ee37a09876d8419d0"
+  },
+  "user": {
+    "$oid": "68104765e37a09876d840a93"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "6808eacc4edd34ee095597bc"
+      },
+      "variantSku": "IPHONE-15-PLUS-DEN-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810480ee37a09876d8419d1"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh City",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0912345678",
+  "status": "pending",
+  "totalPrice": 31990000,
+  "paymentMethod": "BankTransfer",
+  "createdAt": {
+    "$date": "2025-04-29T03:31:26.586Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:31:26.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810493be37a09876d8426a5"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680a6a1580e3982eef458b16"
+      },
+      "variantSku": "IPHONE-12-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810493be37a09876d8426a6"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "cancelled",
+  "totalPrice": 12591000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T03:36:27.219Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:36:27.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104970e37a09876d84283d"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680a6a1580e3982eef458b16"
+      },
+      "variantSku": "IPHONE-12-TRANG-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68104970e37a09876d84283e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "delivering",
+  "totalPrice": 13990000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T03:37:20.178Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:41:57.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104bf2e37a09876d843df2"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68104bf2e37a09876d843df3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T03:48:02.577Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:48:02.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681050fee37a09876d8444d8"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681050fee37a09876d8444d9"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:34.640Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:34.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105103e37a09876d8444db"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105103e37a09876d8444dc"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:39.489Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:39.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105104e37a09876d8444de"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105104e37a09876d8444df"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:40.162Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:40.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105104e37a09876d8444e1"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105104e37a09876d8444e2"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:40.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:40.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105104e37a09876d8444e4"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105104e37a09876d8444e5"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:40.592Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:40.592Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105104e37a09876d8444e7"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105104e37a09876d8444e8"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:40.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:40.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105104e37a09876d8444ea"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105104e37a09876d8444eb"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:40.968Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:40.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105105e37a09876d8444ed"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105105e37a09876d8444ee"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:41.140Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:41.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105105e37a09876d8444f0"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105105e37a09876d8444f1"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:41.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:41.316Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105105e37a09876d8444f3"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105105e37a09876d8444f4"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:41.649Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:41.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105105e37a09876d8444f6"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105105e37a09876d8444f7"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:41.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:41.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105106e37a09876d8444f9"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105106e37a09876d8444fa"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:42.024Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:42.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105106e37a09876d8444fc"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105106e37a09876d8444fd"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:42.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:42.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105106e37a09876d8444ff"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105106e37a09876d844500"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:42.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:42.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810510ce37a09876d844502"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810510ce37a09876d844503"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:09:48.149Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:09:48.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68105158e37a09876d844755"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68105158e37a09876d844756"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo",
+    "city": "Hồ Chí Minh",
+    "zip": "700000",
+    "country": "Việt Nam"
+  },
+  "phone": "0866791305",
+  "status": "pending",
+  "totalPrice": 0,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T04:11:04.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T04:11:04.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681064d4fdaf452038b41922"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681064d4fdaf452038b41923"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:34:12.093Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:34:12.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106524fdaf452038b41b78"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68106524fdaf452038b41b79"
+      }
+    },
+    {
+      "product": {
+        "$oid": "680b9164fc6fceb3ca3be9eb"
+      },
+      "variantSku": "IPHONE-14-RED-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68106524fdaf452038b41b7a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 21991000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:35:32.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:35:32.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810662bfdaf452038b41df8"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810662bfdaf452038b41df9"
+      }
+    },
+    {
+      "product": {
+        "$oid": "680adcfe05704f39e89765da"
+      },
+      "variantSku": "IPHONE-11-XANH-LA-64GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810662bfdaf452038b41dfa"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 9991000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:39:55.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:39:55.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810668bfdaf452038b41e16"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810668bfdaf452038b41e17"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:41:31.811Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:41:31.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681066dffdaf452038b42598"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681066dffdaf452038b42599"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:42:55.980Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:42:55.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106782fdaf452038b4276a"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68106782fdaf452038b4276b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:45:38.866Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:45:38.866Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106975fda7904f2b6cc22a"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "68106975fda7904f2b6cc22b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 400000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T05:53:57.358Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T05:53:57.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106af330db2deb1b4da59d"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "68106af330db2deb1b4da59e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 400000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T06:00:19.025Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:00:19.025Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106c3430db2deb1b4dabcf"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "68106c3430db2deb1b4dabd0"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 400000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T06:05:40.082Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:05:40.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106cc9162ab9506dda79f1"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "68106cc9162ab9506dda79f2"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 400000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T06:08:09.111Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:08:09.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106ceb162ab9506dda7a17"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "68106ceb162ab9506dda7a18"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 400000,
+  "paymentMethod": "COD",
+  "createdAt": {
+    "$date": "2025-04-29T06:08:43.817Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:08:43.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68106d04162ab9506dda7cc4"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68106d04162ab9506dda7cc5"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "confirmed",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "createdAt": {
+    "$date": "2025-04-29T06:09:08.851Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:10:03.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68107030e8fb53fcedfbad7b"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68107030e8fb53fcedfbad7c"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T06:22:40.202Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:22:40.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681071ca4f98b4b7de2e1074"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681071ca4f98b4b7de2e1075"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "confirmed",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T06:29:30.337Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:30:14.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681073d128f1672a9d62ccbf"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681073d128f1672a9d62ccc0"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "delivering",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T06:38:09.039Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:39:00.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810754428f1672a9d62d9a1"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810754428f1672a9d62d9a2"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "delivering",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T06:44:20.657Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T06:44:43.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810815892f3f89ddeb2639a"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810815892f3f89ddeb2639b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T07:35:52.629Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:35:52.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681082ffce68f47d42b307b7"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681082ffce68f47d42b307b8"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T07:42:55.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:42:55.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68108326ce68f47d42b307ba"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68108326ce68f47d42b307bb"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "123",
+    "city": "123",
+    "zip": "123",
+    "country": "Việt Nam"
+  },
+  "phone": "1231231231",
+  "status": "pending",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T07:43:34.422Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:43:34.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810849e42c862d25718b442"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810849e42c862d25718b443"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T07:49:50.407Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:49:50.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681084b342c862d25718b445"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681084b342c862d25718b446"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "confirmed",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T07:50:11.829Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:50:39.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68108627b270e36f0ccdde21"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68108627b270e36f0ccdde22"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T07:56:23.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:56:23.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68108680b270e36f0ccde955"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68108680b270e36f0ccde956"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "confirmed",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T07:57:52.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:58:13.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810877944e8a798778ed925"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810877944e8a798778ed926"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T08:02:01.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T08:05:04.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681089a7d957db4b54df5d46"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681089a7d957db4b54df5d47"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T08:11:19.787Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T08:11:29.716Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68108a0fd957db4b54df5fef"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68108a0fd957db4b54df5ff0"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "confirmed",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T08:13:03.987Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T08:13:32.541Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2025-04-29T08:13:32.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68108a78d957db4b54df6248"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "68108a78d957db4b54df6249"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "completed",
+  "totalPrice": 2000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T08:14:48.432Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T09:01:03.705Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2025-04-29T08:15:08.874Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68109764acad0afdf6779466"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-512GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68109764acad0afdf6779467"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "completed",
+  "totalPrice": 27990000,
+  "paymentMethod": "COD",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T09:09:56.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T09:22:23.443Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2025-04-29T09:22:23.383Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681097c6acad0afdf6779a13"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681097c6acad0afdf6779a14"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T09:11:34.515Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T09:11:42.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681097fcacad0afdf6779d1c"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "681097fcacad0afdf6779d1d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "completed",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T09:12:28.739Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T09:19:35.536Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2025-04-29T09:13:05.462Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68109c91b2f5b2dead54e71c"
+  },
+  "user": {
+    "$oid": "680e6e9286367f1bdb083e9e"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "68109c91b2f5b2dead54e71d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "confirmed",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T09:32:01.867Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T09:32:34.316Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2025-04-29T09:32:34.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6810b2af372c8f3cd8210fc9"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810b2af372c8f3cd8210fca"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 900,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T11:06:23.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T11:06:23.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810b2bb372c8f3cd8210fcc"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810b2bb372c8f3cd8210fcd"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 900,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T11:06:35.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T11:11:11.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810b30a372c8f3cd8211228"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 2,
+      "_id": {
+        "$oid": "6810b30a372c8f3cd8211229"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "delivering",
+  "totalPrice": 1800,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "paid",
+  "createdAt": {
+    "$date": "2025-04-29T11:07:54.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T11:22:31.948Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2025-04-29T11:08:23.231Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6810c98a372c8f3cd8211ef6"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 10,
+      "_id": {
+        "$oid": "6810c98a372c8f3cd8211ef7"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 10000,
+  "paymentMethod": "COD",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T12:43:54.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:43:54.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810c9a1372c8f3cd821213c"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810c9a1372c8f3cd821213d"
+      }
+    },
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810c9a1372c8f3cd821213e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 180900,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T12:44:17.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:47:10.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810ca5f372c8f3cd8212158"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810ca5f372c8f3cd8212159"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T12:47:27.870Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:53:32.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810cc0b372c8f3cd8212bf5"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810cc0b372c8f3cd8212bf6"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T12:54:35.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:55:17.114Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810cc4c372c8f3cd8212e4e"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810cc4c372c8f3cd8212e4f"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T12:55:40.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:56:12.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810cc83372c8f3cd82130a7"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810cc83372c8f3cd82130a8"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 1000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T12:56:35.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:56:44.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810cca2372c8f3cd8213542"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-256GB",
+      "quantity": 12,
+      "_id": {
+        "$oid": "6810cca2372c8f3cd8213543"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "cancelled",
+  "totalPrice": 12000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "failed",
+  "createdAt": {
+    "$date": "2025-04-29T12:57:06.900Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:57:35.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810cceb372c8f3cd821379b"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "680b9468fc6fceb3ca3bf0b0"
+      },
+      "variantSku": "IPHONE-14-MIDNIGHT-EDITION-128GB",
+      "quantity": 1,
+      "_id": {
+        "$oid": "6810cceb372c8f3cd821379c"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "street": "12 Nguyễn Văn Bảo, Phường 1, Gò Vấp",
+    "city": "Hồ Chí Minh",
+    "zip": "70000",
+    "country": "Việt Nam"
+  },
+  "phone": "0123456789",
+  "status": "pending",
+  "totalPrice": 200000,
+  "paymentMethod": "MoMo",
+  "paymentStatus": "unpaid",
+  "createdAt": {
+    "$date": "2025-04-29T12:58:19.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T12:58:19.246Z"
+  },
+  "__v": 0
+}]

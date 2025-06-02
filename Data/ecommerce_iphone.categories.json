@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67fdf7ae209005bb88a63652"
+  },
+  "name": "iPhone 11 Series",
+  "icon": "iphone11.png",
+  "color": "#ff6699",
+  "createdAt": {
+    "$date": "2025-04-15T06:07:42.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf7b5209005bb88a63654"
+  },
+  "name": "iPhone 12 Series",
+  "icon": "iphone12.png",
+  "color": "#ff6699",
+  "createdAt": {
+    "$date": "2025-04-15T06:07:49.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf7b9209005bb88a63656"
+  },
+  "name": "iPhone 13 Series",
+  "icon": "iphone13.png",
+  "color": "#ff6699",
+  "createdAt": {
+    "$date": "2025-04-15T06:07:53.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf7be209005bb88a63658"
+  },
+  "name": "iPhone 14 Series",
+  "icon": "iphone14.png",
+  "color": "#ff6699",
+  "createdAt": {
+    "$date": "2025-04-15T06:07:58.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf7c1209005bb88a6365a"
+  },
+  "name": "iPhone 15 Series",
+  "icon": "iphone15.png",
+  "color": "#ff6699",
+  "createdAt": {
+    "$date": "2025-04-15T06:08:01.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf7c5209005bb88a6365c"
+  },
+  "name": "iPhone 16 Series",
+  "icon": "iphone16.png",
+  "color": "#ff6699",
+  "createdAt": {
+    "$date": "2025-04-15T06:08:05.267Z"
+  },
+  "__v": 0
+}]

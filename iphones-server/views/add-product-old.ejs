@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Thêm sản phẩm mới</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: auto;
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+    }
+
+    .variant-item,
+    .specs-box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Thêm sản phẩm mới</h1>
+
+  <a href="/" class="back-link">← Quay lại</a>
+
+  <form action="/api/products" method="POST" enctype="multipart/form-data">
+    <label>Tên sản phẩm</label>
+    <input type="text" name="name" required>
+
+    <label>Mô tả ngắn</label>
+    <textarea name="description"></textarea>
+
+    <label>Mô tả chi tiết (rich)</label>
+    <textarea name="richDescription"></textarea>
+
+    <label>Hình ảnh chính</label>
+    <input type="file" name="image" accept="image/*" required>
+
+    <label>Ảnh phụ (nhiều ảnh)</label>
+    <input type="file" name="imagesMulti" accept="image/*" multiple>
+
+    <label>Thương hiệu</label>
+    <input type="text" name="brand" value="Apple">
+
+    <label>Danh mục</label>
+    <select name="category" required>
+      <option value="">-- Chọn danh mục --</option>
+      <% categories.forEach(category=> { %>
+        <option value="<%= category._id %>">
+          <%= category.name %>
+        </option>
+        <% }) %>
+    </select>
+
+
+    <label>Nổi bật?</label>
+    <select name="isFeatured">
+      <option value="false">Không</option>
+      <option value="true">Có</option>
+    </select>
+
+    <label>Biến thể sản phẩm</label>
+    <div id="variant-wrapper">
+      <div class="variant-item">
+        <input type="text" placeholder="SKU" name="variant_sku">
+        <input type="text" placeholder="Màu sắc" name="variant_color">
+        <input type="text" placeholder="Dung lượng" name="variant_storage">
+        <input type="number" placeholder="Giá" name="variant_price">
+        <input type="number" placeholder="Tồn kho" name="variant_stock">
+      </div>
+    </div>
+    <button type="button" onclick="addVariant()">+ Thêm biến thể</button>
+    <input type="hidden" name="variants" id="variants-json">
+
+    <label>Thông số kỹ thuật</label>
+    <div class="specs-box">
+      <input type="text" name="spec_screen" placeholder="Màn hình">
+      <input type="text" name="spec_chip" placeholder="Chip xử lý">
+      <input type="text" name="spec_camera" placeholder="Camera">
+      <input type="text" name="spec_battery" placeholder="Pin">
+    </div>
+    <input type="hidden" name="specs" id="specs-json">
+
+    <button type="submit">Thêm sản phẩm</button>
+  </form>
+  <a href="/" class="back-link">← Quay lại</a>
+
+  <script>
+    function addVariant() {
+      const wrapper = document.getElementById('variant-wrapper');
+      const clone = wrapper.firstElementChild.cloneNode(true);
+      clone.querySelectorAll('input').forEach(input => input.value = '');
+      wrapper.appendChild(clone);
+    }
+
+    document.querySelector('form').addEventListener('submit', async function (e) {
+
+      e.preventDefault(); // Ngăn chặn gửi form mặc định
+
+      const variants = [];
+      document.querySelectorAll('#variant-wrapper .variant-item').forEach(item => {
+        const variant = {
+          sku: item.querySelector('[name="variant_sku"]').value,
+          color: item.querySelector('[name="variant_color"]').value,
+          storage: item.querySelector('[name="variant_storage"]').value,
+          price: parseFloat(item.querySelector('[name="variant_price"]').value),
+          stock: parseInt(item.querySelector('[name="variant_stock"]').value)
+        };
+        variants.push(variant);
+      });
+      document.getElementById('variants-json').value = JSON.stringify(variants);
+
+      const specs = {
+        screen: document.querySelector('[name="spec_screen"]').value,
+        chip: document.querySelector('[name="spec_chip"]').value,
+        camera: document.querySelector('[name="spec_camera"]').value,
+        battery: document.querySelector('[name="spec_battery"]').value
+      };
+      document.getElementById('specs-json').value = JSON.stringify(specs);
+
+
+      try {
+    const formData = new FormData(this); // Khởi tạo formData
+    const response = await fetch(this.action, {
+        method: 'POST',
+        body: formData
+    });
+
+    const result = await response.json();
+
+    if (response.ok) {
+        // Chuyển hướng đến URL được trả về từ API
+        window.location.href = result.redirectUrl;
+    } else {
+        alert(result.message || 'Đã xảy ra lỗi khi thêm sản phẩm');
+    }
+} catch (err) {
+    console.error('Lỗi khi gửi form:', err);
+    alert('Đã xảy ra lỗi khi gửi form');
+}
+    });
+  </script>
+</body>
+
+</html>

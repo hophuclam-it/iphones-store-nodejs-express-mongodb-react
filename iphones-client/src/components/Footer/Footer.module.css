@@ -1,0 +1,54 @@
+.footer {
+  background-color: rgba(38, 50, 56, 0.9);
+  color: #ccc;
+  padding: 50px 300px 30px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.text {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.socialLink {
+  color: #1890ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+  color: #40a9ff;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 13px;
+}

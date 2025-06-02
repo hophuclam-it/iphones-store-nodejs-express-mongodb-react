@@ -1,0 +1,26 @@
+<% layout('layout') %>
+
+<h3><%= title %></h3>
+
+<form method="post" action="/payment/create_payment_url">
+  <div class="mb-3">
+    <label for="amount" class="form-label">Số tiền</label>
+    <input type="number" class="form-control" id="amount" name="amount" value="<%= amount %>">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Phương thức thanh toán:</label><br>
+    <input type="radio" name="bankCode" value="" checked> VNPAYQR<br>
+    <input type="radio" name="bankCode" value="VNPAYQR"> Ứng dụng VNPAYQR<br>
+    <input type="radio" name="bankCode" value="VNBANK"> ATM Nội địa<br>
+    <input type="radio" name="bankCode" value="INTCARD"> Thẻ quốc tế<br>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Ngôn ngữ:</label><br>
+    <input type="radio" name="language" value="vn" checked> Tiếng Việt
+    <input type="radio" name="language" value="en"> English
+  </div>
+
+  <button type="submit" class="btn btn-success">Thanh toán</button>
+</form>

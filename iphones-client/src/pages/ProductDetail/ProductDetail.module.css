@@ -1,0 +1,276 @@
+.detailContainer {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.productName {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.mainInfo {
+  display: flex;
+  gap: 50px;
+}
+
+.mainImage {
+  width: 300px;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.infoBlock {
+  flex: 1;
+}
+
+.buyNow {
+  background-color: #7709fe;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.buyNow:hover {
+  background-color: #5e06cc;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+  cursor: pointer;
+}
+
+.galleryImage {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  object-fit: cover;
+  transition: border 0.2s ease;
+}
+
+.galleryImage:hover {
+  border: 2px solid #ccc;
+}
+
+.active {
+  border: 2px solid #7709fe;
+}
+
+.specs {
+  margin-top: 20px;
+}
+
+.specs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.storageSelect {
+  margin: 10px 0;
+}
+
+.storageSelect select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.wrapper {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.starItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ratingText {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+@keyframes slideDown {
+  0% {
+    top: -50px;
+    opacity: 0;
+  }
+  100% {
+    top: 100px;
+    opacity: 1;
+  }
+}
+
+.toast {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7709fe;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  white-space: nowrap;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  animation: slideDown 0.5s ease-out;
+}
+
+.reviewsSection {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.reviewsTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.reviewList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reviewItem {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviewerName {
+  font-weight: bold;
+  color: #333;
+}
+
+.reviewRating {
+  font-size: 18px;
+}
+
+.reviewComment {
+  margin: 10px 0;
+  color: #555;
+}
+
+.reviewDate {
+  font-size: 12px;
+  color: #999;
+}
+
+.showMoreButtonWrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  background-color: #7709fe;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.showMoreButton:hover {
+  background-color: #5e06cc;
+}
+
+.inputWrapper {
+  margin-top: 16px;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.submitWrapper {
+  margin-top: 16px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #faad14;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #d48806;
+}
+
+.submitButton:disabled {
+  background-color: #f4f4f4;
+  cursor: not-allowed;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thêm sản phẩm mới</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .back-link {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    .variant-item {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .specs-box input {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="text-center mb-4">Thêm sản phẩm mới</h1>
+  <a href="/" class="back-link">← Quay lại</a>
+
+  <form action="/api/products" method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="name" class="form-label">Tên sản phẩm</label>
+      <input type="text" name="name" id="name" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="description" class="form-label">Mô tả ngắn</label>
+      <textarea name="description" id="description" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="richDescription" class="form-label">Mô tả chi tiết (rich)</label>
+      <textarea name="richDescription" id="richDescription" class="form-control" rows="4"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="image" class="form-label">Hình ảnh chính</label>
+      <input type="file" name="image" id="image" class="form-control" accept="image/*" required>
+    </div>
+
+
+    <div class="mb-3">
+      <label for="brand" class="form-label">Thương hiệu</label>
+      <input type="text" name="brand" id="brand" class="form-control" value="Apple" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="category" class="form-label">Danh mục</label>
+      <select name="category" id="category" class="form-select" required>
+        <option value="">-- Chọn danh mục --</option>
+        <% categories.forEach(category => { %>
+          <option value="<%= category._id %>"><%= category.name %></option>
+        <% }) %>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="isFeatured" class="form-label">Nổi bật?</label>
+      <select name="isFeatured" id="isFeatured" class="form-select">
+        <option value="false">Không</option>
+        <option value="true">Có</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Biến thể sản phẩm</label>
+      <div id="variant-wrapper">
+        <div class="variant-item">
+          <input type="text" class="form-control mb-2" placeholder="Màu sắc" name="variant_color[]">
+          <input type="text" class="form-control mb-2" placeholder="Dung lượng" name="variant_storage[]">
+          <input type="number" class="form-control mb-2" placeholder="Giá" name="variant_price[]">
+          <input type="number" class="form-control mb-2" placeholder="Giảm giá" name="variant_discount[]">
+          <input type="number" class="form-control mb-2" placeholder="Tồn kho" name="variant_stock[]">
+          <input type="file" class="form-control" name="variantImages[]" accept="image/*">
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary mt-2" onclick="addVariant()">+ Thêm biến thể</button>
+    </div>
+
+    <input type="hidden" name="variants" id="variants-json">
+
+    <div class="mb-3">
+      <label class="form-label">Thông số kỹ thuật</label>
+      <div class="specs-box">
+        <input type="text" name="spec_screen" class="form-control mb-2" placeholder="Màn hình">
+        <input type="text" name="spec_chip" class="form-control mb-2" placeholder="Chip xử lý">
+        <input type="text" name="spec_camera" class="form-control mb-2" placeholder="Camera">
+        <input type="text" name="spec_battery" class="form-control mb-2" placeholder="Pin">
+      </div>
+      <input type="hidden" name="specs" id="specs-json">
+    </div>
+
+    <button type="submit" class="btn btn-success">Thêm sản phẩm</button>
+  </form>
+
+  <script>
+    function addVariant() {
+      const wrapper = document.getElementById('variant-wrapper');
+      const clone = wrapper.firstElementChild.cloneNode(true);
+      clone.querySelectorAll('input').forEach(input => input.value = '');
+      wrapper.appendChild(clone);
+    }
+
+    document.querySelector('form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const variants = [];
+      document.querySelectorAll('#variant-wrapper .variant-item').forEach(item => {
+        const variant = {
+          color: item.querySelector('[name="variant_color[]"]').value,
+          storage: item.querySelector('[name="variant_storage[]"]').value,
+          price: parseFloat(item.querySelector('[name="variant_price[]"]').value),
+          stock: parseInt(item.querySelector('[name="variant_stock[]"]').value),
+          discount: parseInt(item.querySelector('[name="variant_discount[]"]').value)
+        };
+        variants.push(variant);
+      });
+      document.getElementById('variants-json').value = JSON.stringify(variants);
+
+      const specs = {
+        screen: document.querySelector('[name="spec_screen"]').value,
+        chip: document.querySelector('[name="spec_chip"]').value,
+        camera: document.querySelector('[name="spec_camera"]').value,
+        battery: document.querySelector('[name="spec_battery"]').value
+      };
+      document.getElementById('specs-json').value = JSON.stringify(specs);
+
+      const formData = new FormData(this);
+
+      try {
+        const response = await fetch(this.action, {
+          method: 'POST',
+          body: formData
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          window.location.href = result.redirectUrl || '/';
+        } else {
+          alert(result.message || 'Đã xảy ra lỗi khi thêm sản phẩm');
+        }
+      } catch (err) {
+        console.error('Lỗi khi gửi form:', err);
+        alert('Đã xảy ra lỗi khi gửi form');
+      }
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

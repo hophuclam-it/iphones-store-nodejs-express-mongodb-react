@@ -1,0 +1,7276 @@
+[{
+  "_id": {
+    "$oid": "680e77795ef9682e50988d16"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Tím nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:13.777Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e77795ef9682e50988d19"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Xanh lá nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:13.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d1c"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.020Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d1f"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Hồng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.127Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d22"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.231Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d25"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Xanh Dương nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d28"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Tím nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d2b"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Vàng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d2e"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d31"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Xanh dương nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d34"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Pro Max Titan xanh nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777a5ef9682e50988d37"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Xanh lá nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:14.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d3a"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Pro Max Titan trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d3d"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Pro Max Titan tự nhiên nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d40"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Hồng nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d43"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d46"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Vàng nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.480Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d49"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Xanh dương nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d4c"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16e Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.682Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d4f"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Max Titan sa mạc nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d52"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan sa mạc nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777b5ef9682e50988d55"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Plus Xanh lưu ly nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:15.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d58"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Xanh mòng két nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d5b"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16e Đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d5e"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16e Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d61"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Max Titan trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d64"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Max Titan tự nhiên nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.500Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d67"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.603Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d6a"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan sa mạc nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d6d"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777c5ef9682e50988d70"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:16.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d73"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Hồng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d76"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Plus Xanh mòng két nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d79"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Plus Đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d7c"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.337Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d7f"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d82"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d85"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Xanh dương nhạt nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d88"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Đen nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d8b"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Trắng nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777d5ef9682e50988d8e"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Đỏ nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:17.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988d91"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Tím nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988d94"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Xanh lá nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988d97"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Mini Xanh dương nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988d9a"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Green Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988d9d"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Pink Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988da0"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Yellow Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988da3"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Red Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988da6"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Pro Black Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988da9"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Gold Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e777e5ef9682e50988dac"
+  },
+  "user": {
+    "$oid": "68075327f7cf0c3086f83729"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Midnight Edition nhaaa. Sản phẩm tuyệt vời! Giao hàng nhanh chóng và sản phẩm chất lượng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:29:18.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b662"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Tím. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b665"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Xanh lá. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b668"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.323Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b66b"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Hồng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b66e"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.548Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b671"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Xanh Dương. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b674"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Tím nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b677"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Vàng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e782f0f2cb959fff4b67a"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:15.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b67d"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Xanh dương nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b680"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Pro Max Titan xanh. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b683"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Xanh lá nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b686"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Pro Max Titan trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b689"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Pro Max Titan tự nhiên. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.552Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b68c"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Hồng nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b68f"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b692"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Vàng nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78300f2cb959fff4b695"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Xanh dương nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:16.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b698"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16e Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b69b"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Max Titan sa mạc. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b69e"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan sa mạc. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b6a1"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Plus Xanh lưu ly. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b6a4"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Xanh mòng két. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b6a7"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16e Đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.627Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b6aa"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16e Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b6ad"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Max Titan trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78310f2cb959fff4b6b0"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Max Titan tự nhiên. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:17.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6b3"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6b6"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan sa mạc. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6b9"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Pro Titan trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6bc"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6bf"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Hồng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6c2"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Plus Xanh mòng két. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.607Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6c5"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 16 Plus Đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6c8"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78320f2cb959fff4b6cb"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:18.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6ce"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.029Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6d1"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Xanh dương nhạt. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6d4"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Đen. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.242Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6d7"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Trắng. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6da"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Đỏ. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6dd"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Tím. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6e0"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 11 Xanh lá. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6e3"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 12 Mini Xanh dương. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.778Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6e6"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 13 Green Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78330f2cb959fff4b6e9"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Pink Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:19.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78340f2cb959fff4b6ec"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 15 Plus Yellow Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:20.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78340f2cb959fff4b6ef"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Red Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:20.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78340f2cb959fff4b6f2"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Pro Black Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:20.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78340f2cb959fff4b6f5"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Plus Gold Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:20.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78340f2cb959fff4b6f8"
+  },
+  "user": {
+    "$oid": "6807530ef7cf0c3086f83726"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm iPhone 14 Midnight Edition. Thiết kế đẹp mắt, rất dễ sử dụng. Tính năng đầy đủ, vượt xa mong đợi! Sản phẩm tuyệt vời.",
+  "createdAt": {
+    "$date": "2025-04-27T18:32:20.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b5094942"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "iPhone 12 Tím 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b5094945"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "iPhone 12 Xanh lá 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b5094948"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "iPhone 13 Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b509494b"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "iPhone 13 Hồng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b509494e"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b5094951"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Xanh Dương 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b5094954"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Plus Tím nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b5094957"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Plus Vàng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c55e38da44b509495a"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Plus Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:45.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b509495d"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Xanh dương nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094960"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Pro Max Titan xanh 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094963"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Plus Xanh lá nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.265Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094966"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Pro Max Titan trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094969"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Pro Max Titan tự nhiên 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b509496c"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Plus Hồng nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b509496f"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Plus Đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094972"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Vàng nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094975"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Xanh dương nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c65e38da44b5094978"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "iPhone 16e Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:46.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b509497b"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Max Titan sa mạc 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b509497e"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Titan sa mạc 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b5094981"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Plus Xanh lưu ly 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b5094984"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Xanh mòng két 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b5094987"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "iPhone 16e Đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b509498a"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "iPhone 16e Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.609Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b509498d"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Max Titan trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b5094990"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Max Titan tự nhiên 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c75e38da44b5094993"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Titan đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:47.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b5094996"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Titan sa mạc 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b5094999"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Pro Titan trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.120Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b509499c"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.223Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b509499f"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Hồng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b50949a2"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Plus Xanh mòng két 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b50949a5"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "iPhone 16 Plus Đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b50949a8"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "iPhone 12 Đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b50949ab"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "iPhone 12 Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b50949ae"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "iPhone 13 Đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.837Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c85e38da44b50949b1"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "iPhone 13 Xanh dương nhạt 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:48.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949b4"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "iPhone 11 Đen 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949b7"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "iPhone 11 Trắng 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949ba"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "iPhone 11 Đỏ 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949bd"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "iPhone 11 Tím 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.351Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949c0"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "iPhone 11 Xanh lá 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949c3"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "iPhone 12 Mini Xanh dương 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949c6"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "iPhone 13 Green Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949c9"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Plus Pink Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.759Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949cc"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "iPhone 15 Plus Yellow Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78c95e38da44b50949cf"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Red Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:49.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78ca5e38da44b50949d2"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Pro Black Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:50.067Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78ca5e38da44b50949d5"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Plus Gold Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:50.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e78ca5e38da44b50949d8"
+  },
+  "user": {
+    "$oid": "680e7886a073fdf18206a182"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "iPhone 14 Midnight Edition 5 Sao ⭐⭐🫶 nha cả nhà ơii. Đã sử dụng được một thời gian và cực kỳ hài lòng với hiệu suất của nó. Từ hiệu năng đến thiết kế đều rất tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:34:50.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7ae9b6397e30ee1f0df3"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:53.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeab6397e30ee1f0dfe"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:54.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeab6397e30ee1f0e09"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:54.226Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeab6397e30ee1f0e11"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:54.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeab6397e30ee1f0e1f"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:54.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeab6397e30ee1f0e29"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:54.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aebb6397e30ee1f0e33"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:55.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aebb6397e30ee1f0e3c"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:55.270Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aebb6397e30ee1f0e47"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:55.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aebb6397e30ee1f0e54"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:55.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aebb6397e30ee1f0e61"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:55.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aecb6397e30ee1f0e6d"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:56.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aecb6397e30ee1f0e7a"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:56.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aecb6397e30ee1f0e86"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:56.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aecb6397e30ee1f0e92"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:56.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aecb6397e30ee1f0e9e"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:56.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aedb6397e30ee1f0eab"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:57.138Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aedb6397e30ee1f0eb8"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:57.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aedb6397e30ee1f0ec5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:57.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aedb6397e30ee1f0ecf"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:57.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aedb6397e30ee1f0edb"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:57.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeeb6397e30ee1f0ee8"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:58.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeeb6397e30ee1f0ef5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:58.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeeb6397e30ee1f0f02"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:58.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aeeb6397e30ee1f0f0c"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:58.799Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aefb6397e30ee1f0f16"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:59.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aefb6397e30ee1f0f22"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:59.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aefb6397e30ee1f0f2e"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:59.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aefb6397e30ee1f0f3b"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:59.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7aefb6397e30ee1f0f46"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:43:59.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af0b6397e30ee1f0f53"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:00.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af0b6397e30ee1f0f60"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:00.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af0b6397e30ee1f0f6d"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:00.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af0b6397e30ee1f0f7a"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:00.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af0b6397e30ee1f0f87"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:00.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af1b6397e30ee1f0f8e"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:01.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af1b6397e30ee1f0f95"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:01.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af1b6397e30ee1f0f9d"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:01.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af1b6397e30ee1f0fa5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:01.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af1b6397e30ee1f0fad"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:01.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af2b6397e30ee1f0fb5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:02.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af2b6397e30ee1f0fbd"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:02.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af2b6397e30ee1f0fc5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:02.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af2b6397e30ee1f0fcd"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:02.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af2b6397e30ee1f0fd5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:02.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af3b6397e30ee1f0fdd"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:03.108Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af3b6397e30ee1f0fe5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:03.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af3b6397e30ee1f0fed"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:03.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af3b6397e30ee1f0ff5"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:03.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af3b6397e30ee1f0ffd"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:03.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7af4b6397e30ee1f1005"
+  },
+  "user": {
+    "$oid": "680e797ff0481f8b47153087"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:04.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b193facddcf95184407"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:41.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b193facddcf95184412"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:41.308Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b193facddcf9518441d"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:41.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b193facddcf95184425"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:41.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b193facddcf95184433"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:41.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1a3facddcf9518443d"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:42.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1a3facddcf95184447"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:42.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1a3facddcf95184450"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:42.601Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1a3facddcf9518445b"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:42.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1b3facddcf95184468"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:43.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1b3facddcf95184475"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:43.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1b3facddcf95184481"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:43.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1b3facddcf9518448e"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:43.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1b3facddcf9518449a"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:43.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1c3facddcf951844a6"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:44.058Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1c3facddcf951844b2"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:44.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1c3facddcf951844bf"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:44.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1c3facddcf951844cc"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:44.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1c3facddcf951844d9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:44.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1d3facddcf951844e3"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:45.080Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1d3facddcf951844ef"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:45.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1d3facddcf951844fc"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:45.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1d3facddcf95184509"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:45.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1d3facddcf95184516"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:45.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1e3facddcf95184520"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:46.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1e3facddcf9518452a"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:46.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1e3facddcf95184536"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:46.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1e3facddcf95184542"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:46.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1e3facddcf9518454f"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:46.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1f3facddcf9518455a"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:47.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1f3facddcf95184567"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:47.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1f3facddcf95184574"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:47.587Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1f3facddcf95184581"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:47.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b1f3facddcf9518458e"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:47.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b203facddcf9518459b"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:48.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b203facddcf951845a2"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:48.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b203facddcf951845a9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:48.592Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b203facddcf951845b1"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:48.792Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b213facddcf951845b9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:49.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b213facddcf951845c1"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:49.226Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b213facddcf951845c9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:49.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b213facddcf951845d1"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:49.653Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b213facddcf951845d9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:49.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b223facddcf951845e1"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:50.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b223facddcf951845e9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:50.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b223facddcf951845f1"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:50.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b223facddcf951845f9"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:50.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b223facddcf95184601"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:50.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b233facddcf95184609"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:51.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b233facddcf95184611"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:51.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b233facddcf95184619"
+  },
+  "user": {
+    "$oid": "680e7b0977649ee9c7a07e6b"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:44:51.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b69458accbc9fafdb29"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:01.473Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b69458accbc9fafdb34"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:01.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b69458accbc9fafdb3f"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:01.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6a458accbc9fafdb47"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:02.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6a458accbc9fafdb55"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:02.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6a458accbc9fafdb5f"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:02.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6a458accbc9fafdb69"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:02.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6b458accbc9fafdb72"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:03.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6b458accbc9fafdb7d"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:03.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6b458accbc9fafdb8a"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:03.473Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6b458accbc9fafdb97"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:03.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6b458accbc9fafdba3"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:03.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6c458accbc9fafdbb0"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:04.098Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6c458accbc9fafdbbc"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:04.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6c458accbc9fafdbc8"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:04.516Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6c458accbc9fafdbd4"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:04.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6c458accbc9fafdbe1"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:04.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6d458accbc9fafdbee"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:05.141Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6d458accbc9fafdbfb"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:05.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6d458accbc9fafdc05"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:05.551Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6d458accbc9fafdc11"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:05.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6d458accbc9fafdc1e"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:05.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6e458accbc9fafdc2b"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:06.167Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6e458accbc9fafdc38"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:06.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6e458accbc9fafdc42"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:06.574Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6e458accbc9fafdc4c"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:06.778Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6e458accbc9fafdc58"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:06.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6f458accbc9fafdc64"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:07.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6f458accbc9fafdc71"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:07.396Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6f458accbc9fafdc7c"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:07.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b6f458accbc9fafdc89"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:07.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b70458accbc9fafdc96"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:08.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b70458accbc9fafdca3"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:08.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b70458accbc9fafdcb0"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:08.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b70458accbc9fafdcbd"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:08.627Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b70458accbc9fafdcc4"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:08.839Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b71458accbc9fafdccb"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:09.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b71458accbc9fafdcd3"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:09.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b71458accbc9fafdcdb"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:09.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b71458accbc9fafdce3"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:09.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b71458accbc9fafdceb"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:09.870Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b72458accbc9fafdcf3"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:10.073Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b72458accbc9fafdcfb"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:10.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b72458accbc9fafdd03"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:10.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b72458accbc9fafdd0b"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:10.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b72458accbc9fafdd13"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:10.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b73458accbc9fafdd1b"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:11.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b73458accbc9fafdd23"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:11.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b73458accbc9fafdd2b"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:11.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b73458accbc9fafdd33"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:11.716Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b73458accbc9fafdd3b"
+  },
+  "user": {
+    "$oid": "680e7b61f034d625f49d9e97"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:11.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8db932a77a6a11b310"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:37.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8db932a77a6a11b31b"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:37.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8db932a77a6a11b326"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:37.537Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8db932a77a6a11b32e"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:37.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8db932a77a6a11b33c"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:37.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8eb932a77a6a11b346"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:38.167Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8eb932a77a6a11b350"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:38.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8eb932a77a6a11b359"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:38.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8eb932a77a6a11b364"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:38.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8eb932a77a6a11b371"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:38.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8fb932a77a6a11b37e"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:39.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8fb932a77a6a11b38a"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:39.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8fb932a77a6a11b397"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:39.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b8fb932a77a6a11b3a3"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:39.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b90b932a77a6a11b3af"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:40.025Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b90b932a77a6a11b3bb"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:40.228Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b90b932a77a6a11b3c8"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:40.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b90b932a77a6a11b3d5"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:40.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b90b932a77a6a11b3e2"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:40.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b91b932a77a6a11b3ec"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:41.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b91b932a77a6a11b3f8"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:41.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b91b932a77a6a11b405"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:41.456Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b91b932a77a6a11b412"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:41.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b91b932a77a6a11b41f"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:41.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b92b932a77a6a11b429"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:42.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b92b932a77a6a11b433"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:42.284Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b92b932a77a6a11b43f"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:42.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b92b932a77a6a11b44b"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:42.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b92b932a77a6a11b458"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:42.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b93b932a77a6a11b463"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:43.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b93b932a77a6a11b470"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:43.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b93b932a77a6a11b47d"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:43.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b93b932a77a6a11b48a"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:43.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b93b932a77a6a11b497"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:43.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b94b932a77a6a11b4a4"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:44.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b94b932a77a6a11b4ab"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:44.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b94b932a77a6a11b4b2"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:44.565Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b94b932a77a6a11b4ba"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:44.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b94b932a77a6a11b4c2"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:44.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b95b932a77a6a11b4ca"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:45.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b95b932a77a6a11b4d2"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:45.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b95b932a77a6a11b4da"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:45.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b95b932a77a6a11b4e2"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:45.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b95b932a77a6a11b4ea"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:45.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b96b932a77a6a11b4f2"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:46.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b96b932a77a6a11b4fa"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:46.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b96b932a77a6a11b502"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:46.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b96b932a77a6a11b50a"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:46.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b97b932a77a6a11b512"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:47.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b97b932a77a6a11b51a"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:47.236Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7b97b932a77a6a11b522"
+  },
+  "user": {
+    "$oid": "680e7b84d889617ae3757c5e"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:46:47.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bef65f31fc4f4eb3c17"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68085e509c87e477ff9e25e3"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:15.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bef65f31fc4f4eb3c22"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68085f809c87e477ff9e2628"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:15.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bef65f31fc4f4eb3c2d"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680861ee9c87e477ff9e265b"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:15.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bef65f31fc4f4eb3c35"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680867acc7a03dd4fc688fb8"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:15.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf065f31fc4f4eb3c43"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680874678bd275489c785652"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:16.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf065f31fc4f4eb3c4d"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:16.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf065f31fc4f4eb3c57"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680878398bd275489c785726"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:16.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf065f31fc4f4eb3c60"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:16.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf065f31fc4f4eb3c6b"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:16.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf165f31fc4f4eb3c78"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808dc914edd34ee0955960e"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:17.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf165f31fc4f4eb3c85"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:17.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf165f31fc4f4eb3c91"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808e2984edd34ee095596aa"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:17.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf165f31fc4f4eb3c9e"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808e48e4edd34ee09559709"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:17.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf265f31fc4f4eb3caa"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808e67c4edd34ee09559752"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:18.055Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf265f31fc4f4eb3cb6"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:18.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf265f31fc4f4eb3cc2"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:18.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf265f31fc4f4eb3ccf"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:18.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf265f31fc4f4eb3cdc"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808ee584edd34ee09559877"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:18.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf365f31fc4f4eb3ce9"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808f0df4edd34ee0955989f"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:19.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf365f31fc4f4eb3cf3"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:19.295Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf365f31fc4f4eb3cff"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808f9194edd34ee0955993e"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:19.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf365f31fc4f4eb3d0c"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6808fcd64edd34ee095599a8"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:19.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf365f31fc4f4eb3d19"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680908674edd34ee095599f1"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm tuyệt vời! Mình đã dùng và cảm thấy rất hài lòng. Được giao hàng nhanh chóng, chất lượng sản phẩm rất ổn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:19.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf465f31fc4f4eb3d26"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680909744edd34ee09559a17"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:20.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf465f31fc4f4eb3d30"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68090a764edd34ee09559a37"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:20.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf465f31fc4f4eb3d3a"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68090ea14edd34ee09559a57"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:20.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf465f31fc4f4eb3d46"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680913684edd34ee09559a99"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:20.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf465f31fc4f4eb3d52"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680917e24edd34ee09559b56"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:20.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf565f31fc4f4eb3d5f"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:21.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf565f31fc4f4eb3d6a"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680919ed4edd34ee09559be4"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:21.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf565f31fc4f4eb3d77"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:21.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf565f31fc4f4eb3d84"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:21.768Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf565f31fc4f4eb3d91"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:21.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf665f31fc4f4eb3d9e"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 5,
+  "comment": "Chất lượng quá tốt so với giá tiền! Rất đáng mua, mình đã sử dụng và rất hài lòng.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:22.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf665f31fc4f4eb3dab"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:22.390Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf665f31fc4f4eb3db2"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680a6a1580e3982eef458b16"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:22.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf665f31fc4f4eb3db9"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680a6be551fc9c95e8a78177"
+  },
+  "rating": 5,
+  "comment": "5 Sao ⭐ cho sản phẩm này. Từ thiết kế đến hiệu năng đều rất tuyệt vời. Giao hàng nhanh và đóng gói cẩn thận!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:22.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf765f31fc4f4eb3dc1"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680a6c8c51fc9c95e8a7855c"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:23.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf765f31fc4f4eb3dc9"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680adaaa05704f39e8975fc5"
+  },
+  "rating": 5,
+  "comment": "Một sản phẩm rất chất lượng, sử dụng mượt mà, không có lỗi. Đặc biệt giao hàng rất nhanh.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:23.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf765f31fc4f4eb3dd1"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680adb9105704f39e89761c4"
+  },
+  "rating": 5,
+  "comment": "Mua sản phẩm này rất xứng đáng. Chất lượng tuyệt vời và giao hàng rất nhanh chóng. Cảm ơn shop!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:23.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf765f31fc4f4eb3dd9"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680adc2905704f39e89763c9"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:23.635Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf765f31fc4f4eb3de1"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680adc9505704f39e89764d0"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:23.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf865f31fc4f4eb3de9"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:24.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf865f31fc4f4eb3df1"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:24.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf865f31fc4f4eb3df9"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b7dbdf25480f602e34db9"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:24.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf865f31fc4f4eb3e01"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b8c0ffc6fceb3ca3be58f"
+  },
+  "rating": 5,
+  "comment": "Đánh giá 5 sao ⭐. Sản phẩm đẹp, dễ sử dụng, giao hàng nhanh, đóng gói cẩn thận. Chắc chắn sẽ quay lại mua tiếp.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:24.682Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf865f31fc4f4eb3e09"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b8cf8fc6fceb3ca3be7b3"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:24.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf965f31fc4f4eb3e11"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm rất chất lượng. Dùng được một thời gian, thấy hiệu năng rất tốt, không hề có vấn đề gì.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:25.094Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf965f31fc4f4eb3e19"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b923dfc6fceb3ca3beb07"
+  },
+  "rating": 5,
+  "comment": "Mình mua sản phẩm này để sử dụng và thấy rất hài lòng. Chất lượng tuyệt vời, rất đáng giá tiền.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:25.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf965f31fc4f4eb3e21"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 5,
+  "comment": "Rất hài lòng với sản phẩm này. Đẹp, bền và hiệu suất rất cao. Quá tuyệt vời!",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:25.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680e7bf965f31fc4f4eb3e29"
+  },
+  "user": {
+    "$oid": "680e7be52f0abf2e0ddc6e4b"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 5,
+  "comment": "Sản phẩm này thực sự làm mình hài lòng. Giá hợp lý, chất lượng ổn, không có gì phàn nàn.",
+  "createdAt": {
+    "$date": "2025-04-27T18:48:25.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f524d5f1f83cbcfa79629"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680b9468fc6fceb3ca3bf0b0"
+  },
+  "rating": 4,
+  "comment": "ádsadsad",
+  "createdAt": {
+    "$date": "2025-04-28T10:02:53.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f53f55f1f83cbcfa7a955"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680b9382fc6fceb3ca3bef8e"
+  },
+  "rating": 3,
+  "comment": "Tạm ổng",
+  "createdAt": {
+    "$date": "2025-04-28T10:09:57.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f55555f1f83cbcfa7b021"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6808e89a4edd34ee09559779"
+  },
+  "rating": 1,
+  "comment": "tệ",
+  "createdAt": {
+    "$date": "2025-04-28T10:15:49.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f56065f1f83cbcfa7b277"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6808f57d4edd34ee09559919"
+  },
+  "rating": 4,
+  "comment": "aSAsa",
+  "createdAt": {
+    "$date": "2025-04-28T10:18:46.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f58505f1f83cbcfa7b4cc"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6809196d4edd34ee09559bc4"
+  },
+  "rating": 4,
+  "comment": "sấdasd",
+  "createdAt": {
+    "$date": "2025-04-28T10:28:32.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f5a6c5f1f83cbcfa7b7e1"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6808df884edd34ee09559689"
+  },
+  "rating": 4,
+  "comment": "àdasfsdfsdf",
+  "createdAt": {
+    "$date": "2025-04-28T10:37:32.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f5bec5f1f83cbcfa7c26f"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680b9164fc6fceb3ca3be9eb"
+  },
+  "rating": 4,
+  "comment": "ádasdsadsa",
+  "createdAt": {
+    "$date": "2025-04-28T10:43:56.004Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f5d755f1f83cbcfa7c705"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "68091c864edd34ee09559c81"
+  },
+  "rating": 4,
+  "comment": "xfsdfdsfdsf",
+  "createdAt": {
+    "$date": "2025-04-28T10:50:29.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f5ee85f1f83cbcfa7c9aa"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680876668bd275489c7856bb"
+  },
+  "rating": 4,
+  "comment": "àdasfdsaf",
+  "createdAt": {
+    "$date": "2025-04-28T10:56:40.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f60a95f1f83cbcfa7cbff"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "68091d834edd34ee09559cd0"
+  },
+  "rating": 4,
+  "comment": "ádasdsad",
+  "createdAt": {
+    "$date": "2025-04-28T11:04:09.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f61385f1f83cbcfa7ce52"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680adcfe05704f39e89765da"
+  },
+  "rating": 4,
+  "comment": "fsdfdsfdsf",
+  "createdAt": {
+    "$date": "2025-04-28T11:06:32.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f617a5f1f83cbcfa7d1bf"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680ae3bc89cf3e2706cc6205"
+  },
+  "rating": 3,
+  "comment": "sadasdsad",
+  "createdAt": {
+    "$date": "2025-04-28T11:07:38.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f62585f1f83cbcfa7d531"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "68091acf4edd34ee09559c06"
+  },
+  "rating": 3,
+  "comment": "ádsadasdas",
+  "createdAt": {
+    "$date": "2025-04-28T11:11:20.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f645d5f1f83cbcfa7e757"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 4,
+  "comment": "ádasdasdasd",
+  "createdAt": {
+    "$date": "2025-04-28T11:19:57.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f64715f1f83cbcfa7e9b5"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6808ec854edd34ee095597e3"
+  },
+  "rating": 4,
+  "comment": "sadsadsadsa",
+  "createdAt": {
+    "$date": "2025-04-28T11:20:17.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f68cc5f1f83cbcfa7ed7d"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "680a691c187ccbd059b4df07"
+  },
+  "rating": 4,
+  "comment": "dsfdsfsdfdsf",
+  "createdAt": {
+    "$date": "2025-04-28T11:38:52.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68101720fe67eca1cc5ff05c"
+  },
+  "user": {
+    "$oid": "680f4ac35f1f83cbcfa78e48"
+  },
+  "product": {
+    "$oid": "6808eacc4edd34ee095597bc"
+  },
+  "rating": 4,
+  "comment": "sadasdasdas",
+  "createdAt": {
+    "$date": "2025-04-29T00:02:40.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681018528dcc7e6d912a35c9"
+  },
+  "user": {
+    "$oid": "680d9ce72cc6d2924b96694b"
+  },
+  "product": {
+    "$oid": "6808d6ce4edd34ee095595bc"
+  },
+  "rating": 3,
+  "comment": "sadsad",
+  "createdAt": {
+    "$date": "2025-04-29T00:07:46.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6810222124edf41686d70b7a"
+  },
+  "user": {
+    "$oid": "681021c524edf41686d706ca"
+  },
+  "product": {
+    "$oid": "680879ca8bd275489c785742"
+  },
+  "rating": 5,
+  "comment": "Qua tuyet voi",
+  "createdAt": {
+    "$date": "2025-04-29T00:49:37.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681049fee37a09876d8434f9"
+  },
+  "user": {
+    "$oid": "6810490be37a09876d842463"
+  },
+  "product": {
+    "$oid": "68091d0a4edd34ee09559ca8"
+  },
+  "rating": 5,
+  "comment": "tot",
+  "createdAt": {
+    "$date": "2025-04-29T03:39:42.866Z"
+  },
+  "__v": 0
+}]

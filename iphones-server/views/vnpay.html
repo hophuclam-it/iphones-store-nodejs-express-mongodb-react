@@ -1,0 +1,139 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VNPay Payment Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">VNPay Payment Test</h1>
+    <form id="vnpayForm" class="mt-4">
+      <div class="mb-3">
+        <label for="amount" class="form-label">Số tiền (VND)</label>
+        <input type="number" class="form-control" id="amount" placeholder="Nhập số tiền" required>
+      </div>
+      <div class="mb-3">
+        <label for="orderId" class="form-label">Mã đơn hàng</label>
+        <input type="text" class="form-control" id="orderId" placeholder="Nhập mã đơn hàng" required>
+      </div>
+      <div class="mb-3">
+        <label for="orderDescription" class="form-label">Mô tả đơn hàng</label>
+        <input type="text" class="form-control" id="orderDescription" placeholder="Nhập mô tả đơn hàng" required>
+      </div>
+      <div class="mb-3">
+        <label for="bankCode" class="form-label">Ngân hàng (Tùy chọn)</label>
+        <input type="text" class="form-control" id="bankCode" placeholder="Nhập mã ngân hàng (nếu có)">
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Thanh toán qua VNPay</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('vnpayForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const amount = document.getElementById('amount').value;
+      const orderId = document.getElementById('orderId').value;
+      const orderDescription = document.getElementById('orderDescription').value;
+      const bankCode = document.getElementById('bankCode').value;
+
+      try {
+        const response = await fetch('http://localhost:5000/api/payments/vnpay', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            amount,
+            orderId,
+            orderDescription,
+            bankCode,
+          }),
+        });
+
+        if (!response.ok) {
+          throw new Error('Không thể tạo thanh toán VNPay.');
+        }
+
+        const data = await response.json();
+        window.location.href = data.paymentUrl; // Chuyển hướng đến cổng thanh toán VNPay
+      } catch (error) {
+        alert('Lỗi: ' + error.message);
+      }
+    });
+  </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Thanh Toán VNPay</title>
+</head>
+<body>
+  <h1>Test Tạo Thanh Toán VNPay</h1>
+
+  <form id="paymentForm">
+    <div>
+      <label>Số tiền (VND):</label>
+      <input type="number" name="amount" value="100000" required />
+    </div>
+
+    <div>
+      <label>Mã đơn hàng (OrderId):</label>
+      <input type="text" name="orderId" value="ORDER123" required />
+    </div>
+
+    <div>
+      <label>Mô tả đơn hàng:</label>
+      <input type="text" name="orderDescription" value="Thanh toán đơn hàng test" required />
+    </div>
+
+    <div>
+      <label>Mã ngân hàng (tuỳ chọn):</label>
+      <input type="text" name="bankCode" placeholder="Ví dụ: VNPAYQR" />
+    </div>
+
+    <button type="submit">Tạo thanh toán</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('paymentForm');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+      const data = {
+        amount: Number(formData.get('amount')),
+        orderId: formData.get('orderId'),
+        orderDescription: formData.get('orderDescription'),
+        bankCode: formData.get('bankCode') || undefined,
+      };
+
+      try {
+        const response = await fetch('http://localhost:5000/api/payments/vnpay', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+
+        const result = await response.json();
+
+        if (result.paymentUrl) {
+          window.location.href = result.paymentUrl;
+        } else {
+          alert('Không tạo được URL thanh toán!');
+        }
+      } catch (error) {
+        console.error(error);
+        alert('Có lỗi xảy ra khi tạo thanh toán.');
+      }
+    });
+  </script>
+</body>
+</html>
