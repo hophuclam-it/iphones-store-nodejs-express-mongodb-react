@@ -40,9 +40,11 @@ const PaymentSuccess = () => {
     if (resultCode === "0") {
       // Thành công
       updateOrderStatus("confirmed");
+      localStorage.removeItem("cart");
     } else {
       // Thất bại, hủy đơn
       updateOrderStatus("cancelled");
+      localStorage.removeItem("cart");
     }
   }, [searchParams, navigate]);
 
